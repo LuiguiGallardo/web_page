@@ -1,0 +1,101 @@
+---
+name: Luigui
+surname: Gallardo-Becerra
+position: "Bioinformatician and Data Scientist"
+#address: "School of Physics & Chemistry, École Normale Supérieure"
+#phone: +1 22 3333 4444
+profilepic: cv_photo.jpeg
+www: luiguigallardo.github.io/web_page/
+email: "luiguimichelgallardo@gmail.com"
+#twitter: mariecurie
+github: LuiguiGallardo
+linkedin: luiguigallardo
+date: "`r format(Sys.time(), '%B %Y')`"
+aboutme: "Ph.D. candidate passionate about science and technology, looking for new challenges to apply and expand my abilities in Data Science and Bioinformatics."
+output: vitae::moderncv
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+library(tibble)
+library(dplyr)
+```
+
+# About me
+ * As a graduate researcher, I participated in different projects using modern genomic technologies and Data Science applied to biological data to obtain novel information.
+ * Recently finished Google's "Data Analytics Professional Certificate", and Codecademy's "Data Scientist: Machine Learning Specialization".
+
+# Experience
+```{r}
+tribble(
+  ~ Degree, ~ Year, ~ Institution,
+  "Graduate Student Researcher", "2016-Current", "Institute of Biotechnology, National Autonomous University of Mexico",
+) %>% 
+  detailed_entries(Degree, Year, Institution)
+```
+
+I was part of different research projects. From the beginning, obtaining or creating the raw data, to the final report or publication. The tasks that I carried out includes the following:
+\break
+
+* Manage research project: creation of main and secondary objectives/research questions.
+* Server management: installation of Linux operative system, installation of specific software, avoid server slowdowns, and built secure server environments.
+* Creation of pipelines: using bash, python, Snakemake, and Rabix Composer, creating pipelines to avoid repetitive workflows and make reproducible analysis.
+* Software development: using bash, python, Perl, and R, developing several software tools to solve achieve specific goals.
+* Creation of plots: using R, Rstudio, Jupyter Notebooks, Excel, Graphpad, and Tableau.
+* Maintenance of GitHub account: creation and maintenance of repositories on GitHub.
+* Creation of reports/publication: using Markdown and Word, I delivered weekly and biannual reports to the members of the Laboratory. Also, I co-authored peer-reviewed publications that are highly cited in their respective areas.
+* Presentations to the general public and academic events: participate in scientific dissemination, and specialized seminars and congress.
+
+\newpage
+
+# Education
+```{r}
+tribble(
+  ~ Degree, ~ Year, ~ Institution, ~ Where,
+  "Ph.D.", "2019-Current", "Institute of Biotechnology, National Autonomous University of Mexico", "Cuernavaca, Mexico",
+  "Master of Science", "2016-2019", "Institute of Biotechnology, National Autonomous University of Mexico", "Cuernavaca, Mexico",
+  "Bachelor of Biology", "2012-2016", "University of Guadalajara", "Guadalajara, Mexico"
+) %>% 
+  detailed_entries(Degree, Year, Institution, Where)
+```
+
+# Programing Languages and Tools:
+* Python
+* R
+* Bash
+* SQL
+* Perl
+* Git
+* Google BigQuery
+* Tableau
+* Docker
+* Snakemake
+* Jupyter Notebooks
+* Rstudio
+
+# Languages
+* English – Full professional proficiency
+* Spanish – Native
+
+# Publications
+```{r}
+bibliography_entries("packages.bib") %>%
+  arrange(desc(author$family), issued)
+```
+
+# Certifications and Awards
+* Google Data Analytics Specialization - 2022
+* Data Scientist: Machine Learning Specialization, Codecademy - 2021
+* Honorific mention in Bachelor Degree - 2017
+* First place in the XVI State Contest of Physics Apparatus and Experiments - 2011
+* Honorable mention in ExpoCiencias Nacional, Tlaxcala 2010 with science dissemination project - 2010
+* Second place in the State Competition of the XXIII Mexican Mathematics Olympiad - 2010
+* Third place in the XIX University Olympiad of Mathematics - 2009
+* Second place in the State Competition of the XXI University Olympiad of Mathematics - 2009
+
+# Skills
+* I am a fast learner and could quickly adapt to new technologies.
+* If I don't know something, I always search for a way to learn it.
+* I possess excellent problem-solving capabilities.
+* I can manage a significant workload or several projects from different areas without losing track of them.
