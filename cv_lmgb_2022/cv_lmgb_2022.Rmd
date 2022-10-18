@@ -1,17 +1,17 @@
 ---
 name: Luigui
 surname: Gallardo-Becerra
-position: "Bioinformatician and Data Scientist"
+position: "Data Scientist and Bioinformatician"
 #address: "School of Physics & Chemistry, École Normale Supérieure"
-#phone: +1 22 3333 4444
-profilepic: cv_photo.jpeg
+phone: +1 619 432 9502
+#profilepic: cv_photo.jpeg
 www: luiguigallardo.github.io/web_page/
 email: "luiguimichelgallardo@gmail.com"
-#twitter: mariecurie
+
 github: LuiguiGallardo
 linkedin: luiguigallardo
 date: "`r format(Sys.time(), '%B %Y')`"
-aboutme: "Ph.D. candidate passionate about science and technology, looking for new challenges to apply and expand my abilities in Data Science and Bioinformatics."
+aboutme: "Ph.D. candidate passionate about science and technology, looking for new challenges to apply and expand my skills in Data Science and Bioinformatics."
 output: vitae::moderncv
 ---
 
@@ -30,7 +30,7 @@ library(dplyr)
 ```{r}
 tribble(
   ~ Degree, ~ Year, ~ Institution,
-  "Graduate Student Researcher", "2016-Current", "Institute of Biotechnology, National Autonomous University of Mexico",
+  "Ph.D. Researcher", "2016-2022", "Institute of Biotechnology, National Autonomous University of Mexico",
 ) %>% 
   detailed_entries(Degree, Year, Institution)
 ```
@@ -38,7 +38,7 @@ tribble(
 I was part of different research projects. From the beginning, obtaining or creating the raw data, to the final report or publication. The tasks that I carried out includes the following:
 \break
 
-* Manage research project: creation of main and secondary objectives/research questions.
+* Manage research projects: creation of main and secondary objectives/research questions.
 * Server management: installation of Linux operative system, installation of specific software, avoid server slowdowns, and built secure server environments.
 * Creation of pipelines: using bash, python, Snakemake, and Rabix Composer, creating pipelines to avoid repetitive workflows and make reproducible analysis.
 * Software development: using bash, python, Perl, and R, developing several software tools to solve achieve specific goals.
@@ -47,36 +47,69 @@ I was part of different research projects. From the beginning, obtaining or crea
 * Creation of reports/publication: using Markdown and Word, I delivered weekly and biannual reports to the members of the Laboratory. Also, I co-authored peer-reviewed publications that are highly cited in their respective areas.
 * Presentations to the general public and academic events: participate in scientific dissemination, and specialized seminars and congress.
 
-\newpage
+\
+
+```{r}
+tribble(
+  ~ Degree, ~ Year, ~ Institution,
+  "Mathematics Teacher", "2014-2016", "Student Coaching, Guadalajara, Mexico",
+) %>% 
+  detailed_entries(Degree, Year, Institution)
+```
+
+* Taught regularization classes to middle and high school students.
+
+* Taught advanced classes to high school students for university entrance.
 
 # Education
 ```{r}
 tribble(
   ~ Degree, ~ Year, ~ Institution, ~ Where,
-  "Ph.D.", "2019-Current", "Institute of Biotechnology, National Autonomous University of Mexico", "Cuernavaca, Mexico",
+  "Ph.D.", "2019-2022", "Institute of Biotechnology, National Autonomous University of Mexico", "Cuernavaca, Mexico",
   "Master of Science", "2016-2019", "Institute of Biotechnology, National Autonomous University of Mexico", "Cuernavaca, Mexico",
   "Bachelor of Biology", "2012-2016", "University of Guadalajara", "Guadalajara, Mexico"
 ) %>% 
   detailed_entries(Degree, Year, Institution, Where)
 ```
 
-# Programing Languages and Tools:
+# Skills
+* I am a fast learner and could quickly adapt to new technologies.
+* If I don't know something, I always search for a way to learn it.
+* I possess excellent problem-solving capabilities.
+* I can manage a significant workload or several projects from different areas without losing track of them.
+
+# Programing Languages:
 * Python
 * R
-* Bash
 * SQL
+* Bash
 * Perl
+* C++
+* HTML & CSS
+
+# Bioinformatics skills:
+* 16S rRNA profiling
+* Genome/Transcriptome assembly and annotation
+* Metagenomics
+* Metatranscriptomics
+* Viromics
+
+# Tools:
 * Git
-* Google BigQuery
+* Google Cloud
+* AWS
+* Linux
 * Tableau
 * Docker
 * Snakemake
 * Jupyter Notebooks
 * Rstudio
 
+
 # Languages
 * English – Full professional proficiency
 * Spanish – Native
+
 
 # Publications
 ```{r}
@@ -94,8 +127,3 @@ bibliography_entries("packages.bib") %>%
 * Third place in the XIX University Olympiad of Mathematics - 2009
 * Second place in the State Competition of the XXI University Olympiad of Mathematics - 2009
 
-# Skills
-* I am a fast learner and could quickly adapt to new technologies.
-* If I don't know something, I always search for a way to learn it.
-* I possess excellent problem-solving capabilities.
-* I can manage a significant workload or several projects from different areas without losing track of them.
