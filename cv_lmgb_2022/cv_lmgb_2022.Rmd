@@ -1,7 +1,7 @@
 ---
 name: Luigui
 surname: Gallardo-Becerra
-position: "Data Scientist and Bioinformatician"
+position: "Data Scientist & Bioinformatician"
 #address: "School of Physics & Chemistry, École Normale Supérieure"
 phone: +1 619 432 9502
 #profilepic: cv_photo.jpeg
