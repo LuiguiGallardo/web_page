@@ -39,7 +39,7 @@ I was part of different research projects. From the beginning, obtaining or crea
 \break
 
 * Manage research projects: creation of main and secondary objectives/research questions.
-* Server management: installation of Linux operative system, installation of specific software, avoid server slowdowns, and built secure server environments.
+* Server management (HPC): installation of Linux operative system, installation of specific software, avoid server slowdowns, and built secure server environments.
 * Creation of pipelines: using bash, python, Snakemake, and Rabix Composer, creating pipelines to avoid repetitive workflows and make reproducible analysis.
 * Software development: using bash, python, Perl, and R, developing several software tools to solve achieve specific goals.
 * Creation of plots: using R, Rstudio, Jupyter Notebooks, Excel, Graphpad, and Tableau.
@@ -96,6 +96,7 @@ tribble(
 
 # Tools:
 * Git
+* High Performance Computing (HPC)
 * Google Cloud
 * AWS
 * Linux
