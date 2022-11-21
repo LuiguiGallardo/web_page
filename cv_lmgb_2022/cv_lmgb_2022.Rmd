@@ -71,7 +71,7 @@ tribble(
 * Can manage a significant workload or several projects from different areas without losing track of them.
 
 # Programing Languages, Tools & Bioinformatic skills:
-* Python, R, SQL, Bash, Perl, C++, LaTeX, HTML & CSS, High Performance Computing (HPC), Google Cloud, AWS, Linux, Tableau, Docker, Snakemake, Jupyter Notebooks, Rstudio
+* Python, R, SQL, Bash, Perl, C++, LaTeX, HTML & CSS, JavaScript, High Performance Computing (HPC), Google Cloud, AWS, Linux, Tableau, Docker, Snakemake, Jupyter Notebooks, Rstudio, Django
 * 16S rRNA profiling, Genome/Transcriptome assembly and annotation, Metagenomics, Metatranscriptomics, Viromics
 
 # Languages

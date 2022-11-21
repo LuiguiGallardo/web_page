@@ -84,6 +84,7 @@ tribble(
 * Perl
 * C++
 * HTML & CSS
+* JavaScript
 
 # Bioinformatics skills:
 * 16S rRNA profiling
@@ -97,6 +98,7 @@ tribble(
 * High Performance Computing (HPC)
 * Google Cloud
 * AWS
+* Django
 * Linux
 * Tableau
 * Docker
