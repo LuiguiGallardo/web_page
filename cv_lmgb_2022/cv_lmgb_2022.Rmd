@@ -27,7 +27,7 @@ library(dplyr)
 ```{r}
 tribble(
   ~ Degree, ~ Year, ~ Institution,
-  "Data Engineer", "January 2019 - December, 2022", "Institute of Biotechnology, UNAM",
+  "Data Engineer | Bioinformatician", "January 2019 - December, 2022", "Institute of Biotechnology, UNAM",
 ) %>% 
   detailed_entries(Degree, Year, Institution)
 ```
@@ -71,7 +71,7 @@ I participated in the creation of Scientific Software Development. The tasks tha
 ```{r}
 tribble(
   ~ Degree, ~ Year, ~ Institution,
-  "Data Engineer (Internship)", "January, 2016 - July, 2016", "Institute of Biotechnology, UNAM",
+  "Data Engineer | Bioinformatician (Internship)", "January, 2016 - July, 2016", "Institute of Biotechnology, UNAM",
 ) %>% 
   detailed_entries(Degree, Year, Institution)
 ```
@@ -112,7 +112,7 @@ tribble(
 * Can manage a significant workload or several projects from different areas without losing track of them.
 
 # Programing Languages, Tools & Bioinformatic skills:
-* Python, R, SQL, Bash, Perl, C++, LaTeX, HTML & CSS, JavaScript, High Performance Computing (HPC), Google Cloud, AWS, Linux, Tableau, Docker, Snakemake, Jupyter Notebooks, Rstudio, Django
+* Python, R, SQL, Bash, Perl, C#, LaTeX, HTML & CSS, JavaScript, High Performance Computing (HPC), Google Cloud, AWS, Linux, Tableau, Docker, Snakemake, Jupyter Notebooks, Rstudio, Django, ASP.NET, PostgreSQL, PySpark, MongoDB
 * 16S rRNA profiling, Genome/Transcriptome assembly and annotation, Metagenomics, Metatranscriptomics, Viromics
 
 # Languages
