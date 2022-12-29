@@ -9,7 +9,7 @@ email: "luiguimichelgallardo@gmail.com"
 github: LuiguiGallardo
 linkedin: luiguigallardo
 date: "`r format(Sys.time(), '%B %Y')`"
-aboutme: "Data Engineer and Scientist passionate about Big Data, Bioinformatics, and Machine Learning, looking for new challenges to apply and expand my skills."
+aboutme: "Data Engineer and Bioinformatician passionate about Big Data, Computer Science, and Machine Learning, looking for new challenges to apply and expand my skills"
 output: vitae::awesomecv
 ---
 
@@ -35,7 +35,7 @@ tribble(
 I was part of different research projects, from the beginning, obtaining or creating the raw data, to the final report or publication. The tasks that I carried out includes the following:
 
 * Management of research projects: participated in the creation of main and secondary objectives and research questions from different projects to obtain novel biological information useful for the scientific community
-* Server management (HPC): managed the Laboratory's server, installed of Linux operative systems and specific software/packages, avoided server slowdowns, and built secure server environments
+* Server management (HPC): managed the Laboratory's server, installed Linux operative systems and specific software/packages, avoided server slowdowns, and built secure server environments
 * Creation of pipelines: created pipelines to avoid repetitive workflows and make reproducible analysis using bash, python, Snakemake, and Rabix Composer
 * Software development: developed several software tools to solve and achieve specific goals using bash, python, Perl, and R
 * Creation of plots: using R, Rstudio, Jupyter Notebooks, Excel, Graphpad, and Tableau
@@ -46,7 +46,7 @@ I was part of different research projects, from the beginning, obtaining or crea
 ```{r}
 tribble(
   ~ Degree, ~ Year, ~ Institution,
-  "Data Analyst (Part-time)", "October, 2016 - December, 2017", "Appen",
+  "Data Analyst (Part-time)", "October, 2016 - December, 2018", "Appen",
 ) %>% 
   detailed_entries(Degree, Year, Institution)
 ```
