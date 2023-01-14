@@ -1,7 +1,7 @@
 ---
 name: Luigui
 surname: Gallardo-Becerra
-position: "Data Engineer | Bioinformatician"
+position: "Data Scientist | Bioinformatician"
 phone: +1 619 602 0725
 www: luiguigallardo.github.io/web_page/
 email: "luiguimichelgallardo@gmail.com"
@@ -9,7 +9,7 @@ email: "luiguimichelgallardo@gmail.com"
 github: LuiguiGallardo
 linkedin: luiguigallardo
 date: "`r format(Sys.time(), '%B %Y')`"
-aboutme: "Data Engineer and Bioinformatician passionate about Big Data, Computer Science, and Machine Learning, looking for new challenges to apply and expand my skills"
+aboutme: "Data Scientist and Bioinformatician passionate about Big Data, Computer Science, and Machine Learning, looking for new challenges to apply and expand my skills"
 output: vitae::awesomecv
 ---
 
@@ -21,13 +21,13 @@ library(dplyr)
 ```
 
 # About me
- * In recent years, I participated in different projects using modern Genomic technologies (NGS), Data Engineering, and Data Science, to obtain novel information that culminated in high-impact peer-reviewed scientific publications
+ * In recent years, I participated in different projects using modern Genomic technologies (NGS), Data Analysis, and Data Science, to obtain novel information that culminated in high-impact peer-reviewed scientific publications
 
 # Experience
 ```{r}
 tribble(
   ~ Degree, ~ Year, ~ Institution,
-  "Data Engineer | Bioinformatician", "January 2019 - December, 2022", "Institute of Biotechnology, UNAM",
+  "Data Scientist | Bioinformatician", "January 2019 - December, 2022", "Institute of Biotechnology, UNAM",
 ) %>% 
   detailed_entries(Degree, Year, Institution)
 ```
@@ -71,7 +71,7 @@ I participated in the creation of Scientific Software Development. The tasks tha
 ```{r}
 tribble(
   ~ Degree, ~ Year, ~ Institution,
-  "Data Engineer | Bioinformatician (Internship)", "January, 2016 - July, 2016", "Institute of Biotechnology, UNAM",
+  "Data Scientist | Bioinformatician (Internship)", "January, 2016 - July, 2016", "Institute of Biotechnology, UNAM",
 ) %>% 
   detailed_entries(Degree, Year, Institution)
 ```
