@@ -1,7 +1,7 @@
 ---
 name: Luigui
 surname: Gallardo-Becerra
-position: "Data Scientist | Bioinformatician"
+position: "Data Engineer"
 phone: +1 619 602 0725
 www: luiguigallardo.github.io/web_page/
 email: "luiguimichelgallardo@gmail.com"
@@ -9,7 +9,7 @@ email: "luiguimichelgallardo@gmail.com"
 github: LuiguiGallardo
 linkedin: luiguigallardo
 date: "`r format(Sys.time(), '%B %Y')`"
-aboutme: "Data Scientist and Bioinformatician passionate about Big Data, Computer Science, and Machine Learning, looking for new challenges to apply and expand my skills"
+aboutme: "Data Engineer, passionate about Big Data, Computer Science, and Machine Learning, looking for new challenges to apply and expand my skills"
 output: vitae::awesomecv
 ---
 
@@ -26,10 +26,10 @@ library(dplyr)
 # Experience
 ```{r}
 tribble(
-  ~ Degree, ~ Year, ~ Institution,
-  "Data Scientist | Bioinformatician", "January 2019 - December, 2022", "Institute of Biotechnology, UNAM",
+  ~ empty, ~ Degree, ~ Year, ~ Institution,
+  "", "Data Engineer | Bioinformatician", "January 2019 - December 2022", "Institute of Biotechnology, UNAM",  
 ) %>% 
-  detailed_entries(Degree, Year, Institution)
+  detailed_entries(empty, Year, Degree, Institution)
 ```
 
 I was part of different research projects, from the beginning obtaining or creating the raw data to the final report or publication. The tasks that I carried out includes the following:
@@ -45,51 +45,55 @@ I was part of different research projects, from the beginning obtaining or creat
 
 ```{r}
 tribble(
-  ~ Degree, ~ Year, ~ Institution,
-  "Data Analyst (Part-time)", "October, 2016 - December, 2018", "Appen",
+  ~ empty, ~ Degree, ~ Year, ~ Institution,
+  "", "Data Analyst (Part-time)", "October 2016 - December 2018", "Appen",  
 ) %>% 
-  detailed_entries(Degree, Year, Institution)
+  detailed_entries(empty, Year, Degree, Institution)
 ```
+
 I was an independent contractor and participated in several projects that included Data Sourcing and Annotation for different Appen clients (browsers, social networks, etc.). The tasks I performed were the following:
 
-* Data collection and Preprocessing: obtention of raw data and its preprocessing before passing it to the final client or the Machine Learning Department
+* Data collection and Preprocessing: obtention of raw data and preprocessing before passing it to the final client or the Machine Learning Department
 * Creation of weekly deliverables: for the final client or project manager
 * Content translation: from Spanish to English or English to Spanish
 
 ```{r}
 tribble(
-  ~ Degree, ~ Year, ~ Institution,
-  "Software Engineer (Internship)", "May, 2016 - July, 2016", "Department of Computer Science, CUCEI (UDG)",
+  ~ empty, ~ Degree, ~ Year, ~ Institution,
+  "", "Software Engineer (Internship)", "May 2016 - July 2016", "Dept. of Computer Science, CUCEI",  
 ) %>% 
-  detailed_entries(Degree, Year, Institution)
+  detailed_entries(empty, Year, Degree, Institution)
 ```
 
 I participated in the creation of Scientific Software Development. The tasks that I carried out included:
 
 * Creation of an API: using .NET, I created an API to save patients' records and images
 
+\newpage
+
 ```{r}
 tribble(
-  ~ Degree, ~ Year, ~ Institution,
-  "Data Scientist | Bioinformatician (Internship)", "January, 2016 - July, 2016", "Institute of Biotechnology, UNAM",
+  ~ empty, ~ Degree, ~ Year, ~ Institution,
+  "", "Data Engineer | Bioinformatician (Internship)", "January 2016 - July 2016", "Institute of Biotechnology, UNAM",  
 ) %>% 
-  detailed_entries(Degree, Year, Institution)
+  detailed_entries(empty, Year, Degree, Institution)
 ```
 
-I participated in the research project "Microbiome of Pacific Whiteleg shrimp reveals differential bacterial community composition between Wild, Aquacultured and AHPND/EMS outbreak conditions". The tasks that I performed were:
+I participated in the research project "Microbiome of Pacific whiteleg shrimp reveals differential bacterial community composition between Wild, Aquacultured and AHPND/EMS outbreak conditions". The tasks that I performed were:
 
-* Big Data Analysis: using a HPC, Linux and bash, I analyzed the 16S rRNA information of several samples
+* Big Data Analysis: using HPC, Linux, and bash, I analyzed the 16S rRNA information of several samples
 * Creation of plots: using R, Rstudio, Excel, and Matlab
-* Software development: I developed several tools for ETL data using bash, python and Perl
-* Creation of paper: with the data obtained from this internship, I co-autored this paper
+* Software development: I developed several tools for ETL data using bash, python, and Perl
+* Creation of paper: with the data obtained from this internship, I co-authored this paper
 
 ```{r}
 tribble(
-  ~ Degree, ~ Year, ~ Institution,
-  "Mathematics Teacher (Part-time)", "January, 2014 - December, 2015", "Student Coaching",
+  ~ empty, ~ Degree, ~ Year, ~ Institution,
+  "", "Mathematics Teacher (Part-time)", "January 2014 - December 2015", "Student Coaching",  
 ) %>% 
-  detailed_entries(Degree, Year, Institution)
+  detailed_entries(empty, Year, Degree, Institution)
 ```
+
 As a part-time teacher, I taught middle and high school students math classes to increase their grades or for college admission tests.
 
 * Prepared group and individualized classes and lessons
@@ -99,11 +103,20 @@ As a part-time teacher, I taught middle and high school students math classes to
 ```{r}
 tribble(
   ~ Degree, ~ Year, ~ Institution, ~ Where,
-  "Master of Science (Computer Science and Biochemistry)", "August, 2016 - January, 2019", "National Autonomous University of Mexico", "Mexico City, Mexico",
-  "Bachelor of Science (Computer Science and Molecular Biology)", "August, 2012 - January, 2016", "University of Guadalajara", "Guadalajara, Mexico"
+  "", "August 2016 - January 2019", "National Autonomous University of Mexico", "Mexico City, Mexico"
 ) %>% 
   detailed_entries(Degree, Year, Institution, Where)
 ```
+Master of Science (Computer Science and Biochemistry)
+
+```{r}
+tribble(
+  ~ Degree, ~ Year, ~ Institution, ~ Where,
+  "", "August 2012 - January 2016", "University of Guadalajara", "Guadalajara, Mexico"
+) %>% 
+  detailed_entries(Degree, Year, Institution, Where)
+```
+Bachelor of Science (Computer Science and Molecular Biology)
 
 # Soft skills
 * Team player who can also work independently with excellent communication skills
@@ -112,8 +125,8 @@ tribble(
 * Can manage a significant workload or several projects from different areas without losing track of them.
 
 # Programing Languages, Tools & Bioinformatic skills:
-* Python, R, SQL, Bash, Perl, C#, LaTeX, HTML & CSS, JavaScript, High Performance Computing (HPC), Google Cloud, AWS, Linux, Tableau, Docker, Snakemake, Jupyter Notebooks, Rstudio, Django, ASP.NET, PostgreSQL, PySpark, MongoDB
-* 16S rRNA profiling, Genome/Transcriptome assembly and annotation, Metagenomics, Metatranscriptomics, Viromics
+* Python, R, SQL, Bash, Perl, C#, LaTeX, HTML & CSS, JavaScript, High-Performance Computing (HPC), Google Cloud, AWS, Linux, Tableau, Docker, Snakemake, Jupyter Notebooks, Rstudio, Django, ASP.NET, PostgreSQL, PySpark, MongoDB
+* 16S rRNA profiling, Genome/Transcriptome assembly, and annotation, Metagenomics, Metatranscriptomics, Viromics
 
 # Languages
 * English – Full professional proficiency
