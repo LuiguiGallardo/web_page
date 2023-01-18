@@ -1,7 +1,7 @@
 ---
 name: Luigui
 surname: Gallardo-Becerra
-position: "Data Engineer"
+position: "Data Scientist"
 phone: +1 619 602 0725
 www: luiguigallardo.github.io/web_page/
 email: "luiguimichelgallardo@gmail.com"
@@ -9,7 +9,7 @@ email: "luiguimichelgallardo@gmail.com"
 github: LuiguiGallardo
 linkedin: luiguigallardo
 date: "`r format(Sys.time(), '%B %Y')`"
-aboutme: "Data Engineer, passionate about Big Data, Computer Science, and Machine Learning, looking for new challenges to apply and expand my skills"
+aboutme: "Data Scientist, passionate about Big Data, Computer Science, and Machine Learning, looking for new challenges to apply and expand my skills"
 output: vitae::awesomecv
 ---
 
@@ -27,7 +27,7 @@ library(dplyr)
 ```{r}
 tribble(
   ~ empty, ~ Degree, ~ Year, ~ Institution,
-  "", "Data Engineer | Bioinformatician", "January 2019 - December 2022", "Institute of Biotechnology, UNAM",  
+  "", "Data Scientist | Bioinformatician", "January 2019 - December 2022", "Institute of Biotechnology, UNAM",  
 ) %>% 
   detailed_entries(empty, Year, Degree, Institution)
 ```
@@ -74,7 +74,7 @@ I participated in the creation of Scientific Software Development. The tasks tha
 ```{r}
 tribble(
   ~ empty, ~ Degree, ~ Year, ~ Institution,
-  "", "Data Engineer | Bioinformatician (Internship)", "January 2016 - July 2016", "Institute of Biotechnology, UNAM",  
+  "", "Data Scientist | Bioinformatician (Internship)", "January 2016 - July 2016", "Institute of Biotechnology, UNAM",  
 ) %>% 
   detailed_entries(empty, Year, Degree, Institution)
 ```
