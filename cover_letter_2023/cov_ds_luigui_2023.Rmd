@@ -1,0 +1,34 @@
+---
+author: Luigui Gallardo
+return-address: 
+  - 4914 67th St. Apt. 9 92115 San Diego, CA
+return-phone: +(1) 619 602 0725
+return-email: luiguimichelgallardo@gmail.com
+
+place: San Diego, CA
+
+address:
+  - Apixio
+  - 1850 Gateway Drive, 3rd Floor
+  - San Mateo, CA 94404
+  
+# subject: Application for Data Scientist position
+opening: Dear recruiter,
+closing: Thank you for your consideration,
+signature: "\\includegraphics{signature.png}"
+signature_size:
+colorlinks: true
+output: komaletter::komaletter
+---
+
+My name is Luigui, and I am writing to apply for this Data Science position because I believe my educational background and work experience make me a qualified candidate for this position at Apixio.
+
+I would describe my background as Data Science and Data Analytics. For almost four years, I worked at the Institute of Biotechnology as a Data Scientist to get novel information from biological data. And now, I want to apply my skills to this industry, and I consider would be a good fit in your company. 
+
+Having studied the job description, I am confident I have all the skills, qualities, and qualifications needed to excel in the role. Additionally, I am a fast learner and could quickly adapt to your company. I possess excellent problem-solving capabilities and can manage a significant workload or several projects from different areas without losing track of each of them.
+
+I attached my CV and personal webpage, where you can see my portfolio and publications: https://luiguigallardo.github.io/web_page/
+
+I’m thrilled at the opportunity to use my experiences to fuel data-driven decisions at Apixio, and I’m keen to continue developing my skill set on the job. I am available for a call or in-person meeting to discuss how I can help Apixio to obtain meaningful information through data.
+
+
