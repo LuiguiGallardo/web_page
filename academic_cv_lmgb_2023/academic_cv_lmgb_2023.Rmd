@@ -133,3 +133,11 @@ Bachelor of Science (Molecular Biology and Computer Science)
 # Languages
 * English – Full professional proficiency
 * Spanish – Native
+
+# Publications
+
+```{r}
+library(dplyr)
+bibliography_entries("packages.bib") %>%
+  arrange(desc(issued))
+```
