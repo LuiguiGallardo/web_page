@@ -130,8 +130,8 @@ tribble(
 * Excellent problem-solving capabilities.
 * Can manage a significant workload or several projects from different areas without losing track of them.
 
-# Programing Languages, Tools & Bioinformatic skills:
-* Programing Languages: Python, C#, R, SQL, Bash, HTML & CSS, JavaScript, Typescript
+# Programming Languages, Tools & Bioinformatic skills:
+* Programming Languages: Python, C#, R, SQL, Bash, HTML & CSS, JavaScript, Typescript
 * Web frameworks: Django, ASP.NET, Angular
 * Other tools: High-Performance Computing (HPC), Linux, Tableau, Docker, Snakemake, Jupyter Notebooks, Rstudio, MySQL, PostgreSQL, MongoDB
 * Bioinformatic skills: 16S rRNA profiling, Genome/Transcriptome assembly, and annotation, Metagenomics, Metatranscriptomics, Viromics
