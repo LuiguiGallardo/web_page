@@ -1,33 +1,33 @@
 ---
 name: Luigui
 surname: Gallardo-Becerra
-position: "Data Scientist & Bioinformatician"
+position: Data Scientist & Bioinformatician
 phone: +1 619 602 0725
 www: luiguigallardo.github.io/web_page/
-email: "luiguimichelgallardo@gmail.com"
-
+email: luiguimichelgallardo@gmail.com
 github: LuiguiGallardo
 linkedin: luiguigallardo
-date: "`r format(Sys.time(), '%B %Y')`"
-aboutme: "Data Scientist and Bioinformatician looking for new challenges to apply and expand my skills. In recent years, I participated in different projects using modern Genomic technologies (NGS), Data Analysis, and Data Science, to obtain novel biological information that culminated in high-impact peer-reviewed scientific publications"
+date: April 2023
+aboutme: Data Scientist and Bioinformatician looking for new challenges to apply and
+  expand my skills. In recent years, I participated in different projects using modern
+  Genomic technologies (NGS), Data Analysis, and Data Science, to obtain novel biological
+  information that culminated in high-impact peer-reviewed scientific publications
 output: vitae::awesomecv
+nocite: '@jatuyospornWhiteSpotSyndrome2023, @cervantes-echeverriaTwoFacedRoleCrAssphage2023,
+  @chinodelacruzCompleteGenomeSequence2023, @palomino-hermosilloTranscriptomeAnalysisSoursop2022,
+  @ochoa-romoAgavinInducesBeneficial2022, @bikelProtocolIsolationSequencing2022, @bikelGutDsDNAVirome2021a,
+  @gallardo-becerraMetatranscriptomicAnalysisDefine2020a, @cornejo-granadosMetaanalysisRevealsEnvironmental2018,
+  @cornejo-granadosMicrobiomePacificWhiteleg2017'
+csl: /Library/Frameworks/R.framework/Versions/4.1-arm64/Resources/library/vitae/vitae.csl
+
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
-library(vitae)
-library(tibble)
-library(dplyr)
-```
+
 
 # Experience
-```{r}
-tribble(
-  ~ empty, ~ Degree, ~ Year, ~ Institution,
-  "", "Graduate Research Assistant (Data Science & Bioinformatics)", "January 2019 - December 2022", "Institute of Biotechnology, UNAM",  
-) %>% 
-  detailed_entries(empty, Year, Degree, Institution)
-```
+\begin{cventries}
+	\cventry{}{Graduate Research Assistant (Data Science \& Bioinformatics)}{Institute of Biotechnology, UNAM}{January 2019 - December 2022}{}\vspace{-4.0mm}
+\end{cventries}
 
 I was part of different research projects, from the beginning obtaining or creating the raw data to the final report or publication. The tasks that I carried out includes the following:
 
@@ -40,13 +40,9 @@ I was part of different research projects, from the beginning obtaining or creat
 * Creation of reports/publications: using Markdown and Word, I delivered weekly and biannual reports to the members of the Laboratory. Also, I co-authored peer-reviewed publications that are highly cited in their respective areas
 * Presentations to the general public and academic events: participated in scientific dissemination, specialized seminars, and congresses
 
-```{r}
-tribble(
-  ~ empty, ~ Degree, ~ Year, ~ Institution,
-  "", "Data Analyst", "October 2016 - December 2018", "Appen",  
-) %>% 
-  detailed_entries(empty, Year, Degree, Institution)
-```
+\begin{cventries}
+	\cventry{}{Data Analyst}{Appen}{October 2016 - December 2018}{}\vspace{-4.0mm}
+\end{cventries}
 
 I was an independent contractor and participated in several projects that included Data Sourcing and Annotation for different Appen clients (browsers, social networks, etc.). The tasks I performed were the following:
 
@@ -54,13 +50,9 @@ I was an independent contractor and participated in several projects that includ
 * Creation of weekly deliverables: for the final client or project manager
 * Content translation: from Spanish to English or English to Spanish
 
-```{r}
-tribble(
-  ~ empty, ~ Degree, ~ Year, ~ Institution,
-  "", "Software Engineer (Internship)", "May 2016 - July 2016", "Dept. of Computer Science, CUCEI",  
-) %>% 
-  detailed_entries(empty, Year, Degree, Institution)
-```
+\begin{cventries}
+	\cventry{}{Software Engineer (Internship)}{Dept. of Computer Science, CUCEI}{May 2016 - July 2016}{}\vspace{-4.0mm}
+\end{cventries}
 
 I participated in the creation of a web application. The tasks that I carried out included:
 
@@ -68,13 +60,9 @@ I participated in the creation of a web application. The tasks that I carried ou
 
 \newpage
 
-```{r}
-tribble(
-  ~ empty, ~ Degree, ~ Year, ~ Institution,
-  "", "Data Scientist & Bioinformatician (Internship)", "January 2016 - July 2016", "Institute of Biotechnology, UNAM",  
-) %>% 
-  detailed_entries(empty, Year, Degree, Institution)
-```
+\begin{cventries}
+	\cventry{}{Data Scientist \& Bioinformatician (Internship)}{Institute of Biotechnology, UNAM}{January 2016 - July 2016}{}\vspace{-4.0mm}
+\end{cventries}
 
 I participated in the research project "Microbiome of Pacific whiteleg shrimp reveals differential bacterial community composition between Wild, Aquacultured and AHPND/EMS outbreak conditions". The tasks that I performed were:
 
@@ -83,13 +71,9 @@ I participated in the research project "Microbiome of Pacific whiteleg shrimp re
 * Software development: I developed several tools for ETL data using bash, python, and Perl
 * Creation of paper: with the data obtained from this internship, I co-authored this paper
 
-```{r}
-tribble(
-  ~ empty, ~ Degree, ~ Year, ~ Institution,
-  "", "Mathematics Teacher (Part-time)", "January 2014 - December 2015", "Student Coaching",  
-) %>% 
-  detailed_entries(empty, Year, Degree, Institution)
-```
+\begin{cventries}
+	\cventry{}{Mathematics Teacher (Part-time)}{Student Coaching}{January 2014 - December 2015}{}\vspace{-4.0mm}
+\end{cventries}
 
 As a part-time teacher, I taught middle and high school students math classes to increase their grades or for college admission tests.
 
@@ -97,31 +81,19 @@ As a part-time teacher, I taught middle and high school students math classes to
 * Applied weekly assessments to each student
 
 # Education
-```{r}
-tribble(
-  ~ Degree, ~ Year, ~ Institution, ~ Where,
-  "Ph.D. (Computational Biology)", "January 2019 - December 2022", "National Autonomous University of Mexico", "Mexico City, Mexico"
-) %>% 
-  detailed_entries(Degree, Year, Institution, Where)
-```
+\begin{cventries}
+	\cventry{Ph.D. (Computational Biology)}{National Autonomous University of Mexico}{Mexico City, Mexico}{January 2019 - December 2022}{}\vspace{-4.0mm}
+\end{cventries}
 
 
-```{r}
-tribble(
-  ~ Degree, ~ Year, ~ Institution, ~ Where,
-  "Master of Science (Computational Biology)", "August 2016 - January 2019", "National Autonomous University of Mexico", "Mexico City, Mexico"
-) %>% 
-  detailed_entries(Degree, Year, Institution, Where)
-```
+\begin{cventries}
+	\cventry{Master of Science (Computational Biology)}{National Autonomous University of Mexico}{Mexico City, Mexico}{August 2016 - January 2019}{}\vspace{-4.0mm}
+\end{cventries}
 
 
-```{r}
-tribble(
-  ~ Degree, ~ Year, ~ Institution, ~ Where,
-  "Bachelor of Science (Molecular Biology)", "August 2012 - January 2016", "University of Guadalajara", "Guadalajara, Mexico"
-) %>% 
-  detailed_entries(Degree, Year, Institution, Where)
-```
+\begin{cventries}
+	\cventry{Bachelor of Science (Molecular Biology)}{University of Guadalajara}{Guadalajara, Mexico}{August 2012 - January 2016}{}\vspace{-4.0mm}
+\end{cventries}
 
 
 # Soft skills
@@ -139,3 +111,10 @@ tribble(
 # Languages
 * English – Full professional proficiency
 * Spanish – Native
+
+# Publications
+
+
+::: {#bibliography}
+/var/folders/qh/mxtngmm54b77j7bys0nq74cr0000gn/T//Rtmpw5G3Rl/file10cb54b2f7308.yaml
+:::

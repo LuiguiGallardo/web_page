@@ -9,7 +9,7 @@ email: "luiguimichelgallardo@gmail.com"
 github: LuiguiGallardo
 linkedin: luiguigallardo
 date: "`r format(Sys.time(), '%B %Y')`"
-aboutme: "Data Scientist passionate about Bioinformatics and Big Data looking for new challenges to apply and expand my skills"
+aboutme: "Data Scientist and Bioinformatician looking for new challenges to apply and expand my skills. In recent years, I participated in different projects using modern Genomic technologies (NGS), Data Analysis, and Data Science, to obtain novel biological information that culminated in high-impact peer-reviewed scientific publications"
 output: vitae::awesomecv
 ---
 
@@ -20,14 +20,11 @@ library(tibble)
 library(dplyr)
 ```
 
-# About me
- * In recent years, I participated in different projects using modern Genomic technologies (NGS), Data Analysis, and Data Science, to obtain novel information that culminated in high-impact peer-reviewed scientific publications. Now I am looking for Software Developer roles to extend and apply my skills.
-
 # Experience
 ```{r}
 tribble(
   ~ empty, ~ Degree, ~ Year, ~ Institution,
-  "", "Data Scientist & Bioinformatician", "January 2019 - December 2022", "Institute of Biotechnology, UNAM",  
+  "", "Graduate Research Assistant (Data Science & Bioinformatics)", "January 2019 - December 2022", "Institute of Biotechnology, UNAM",  
 ) %>% 
   detailed_entries(empty, Year, Degree, Institution)
 ```
@@ -103,20 +100,29 @@ As a part-time teacher, I taught middle and high school students math classes to
 ```{r}
 tribble(
   ~ Degree, ~ Year, ~ Institution, ~ Where,
-  "", "August 2016 - January 2019", "National Autonomous University of Mexico", "Mexico City, Mexico"
+  "Ph.D. (Computational Biology)", "January 2019 - December 2022", "National Autonomous University of Mexico", "Mexico City, Mexico"
 ) %>% 
   detailed_entries(Degree, Year, Institution, Where)
 ```
-Master of Science (Computational Biology)
+
 
 ```{r}
 tribble(
   ~ Degree, ~ Year, ~ Institution, ~ Where,
-  "", "August 2012 - January 2016", "University of Guadalajara", "Guadalajara, Mexico"
+  "Master of Science (Computational Biology)", "August 2016 - January 2019", "National Autonomous University of Mexico", "Mexico City, Mexico"
 ) %>% 
   detailed_entries(Degree, Year, Institution, Where)
 ```
-Bachelor of Science (Molecular Biology and Computer Science)
+
+
+```{r}
+tribble(
+  ~ Degree, ~ Year, ~ Institution, ~ Where,
+  "Bachelor of Science (Molecular Biology)", "August 2012 - January 2016", "University of Guadalajara", "Guadalajara, Mexico"
+) %>% 
+  detailed_entries(Degree, Year, Institution, Where)
+```
+
 
 # Soft skills
 * Team player who can also work independently with excellent communication skills
