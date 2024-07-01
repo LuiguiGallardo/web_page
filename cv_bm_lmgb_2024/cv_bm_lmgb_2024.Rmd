@@ -1,7 +1,7 @@
 ---
 name: Luigui
 surname: Gallardo-Becerra
-position: "Bioinformatician | Molecular Biologist"
+position: "Bioinformatician & Molecular Biologist"
 phone: +1 619 602 0725
 www: luiguigallardo.github.io/web_page/
 email: "luiguimichelgallardo@gmail.com"
@@ -24,21 +24,18 @@ library(dplyr)
 ```{r}
 tribble(
   ~ empty, ~ Degree, ~ Year, ~ Institution,
-  "", "Graduate Research Assistant (Bioinformatics)", "January 2019 - Current", "Institute of Biotechnology, UNAM",  
+  "", "Graduate Research Assistant (Computational Biology)", "January 2019 - Current", "Institute of Biotechnology, UNAM",  
 ) %>% 
   detailed_entries(empty, Year, Degree, Institution)
 ```
 
-I was part of different research projects, from the beginning obtaining or creating the raw data to the final report or publication. The tasks that I carried out includes the following:
+I was part of different research projects with a focus on molecular biology and bioinformatics, managing projects from sample preparation and data generation through final reports and publications. Key tasks included:
 
-* Management of research projects: participated in the creation of main and secondary objectives and research questions from different projects to obtain novel biological information useful for the scientific community
-* Server management (HPC): managed the Laboratory's server, installed Linux operative systems and specific software/packages, avoided server slowdowns, and built secure server environments
-* Creation of pipelines: created pipelines to avoid repetitive workflows and make reproducible analysis using bash, Python, Nextflow, and Snakemake
-* Software development: developed several software tools to solve and achieve specific goals using bash, Python, Perl, and R
-* Creation of plots: using R, Rstudio, Jupyter Notebooks, Excel, and Graphpad
-* Maintenance of version control (CI/CD): creation and maintenance of GitHub repositories and their continuous version control 
-* Creation of reports/publications: using Markdown and Word, I delivered weekly and biannual reports to the members of the Laboratory. Also, I co-authored peer-reviewed publications that are highly cited in their respective areas
-* Presentations to the general public and academic events: participated in scientific dissemination, specialized seminars, and congresses
+* Molecular Biology Lab Techniques: DNA/RNA extractions, PCR, gel electrophoresis, cloning, NGS libraries preparation, etc.
+* Research Project Management: Participated in defining research objectives, designing experiments, and contributing to the generation of novel biological insights.
+* Computational Biology: Managed the laboratory's server (Linux systems), developed pipelines in Bash, Python, and Nextflow for reproducible analysis, and created visualizations using R, Jupyter Notebooks, and other tools.
+* Software Development: Built custom software tools in Bash, Python, Perl, and R to solve research challenges and streamline analysis.
+* Scientific Communication: Co-authored peer-reviewed publications, prepared reports, and presented findings at seminars and conferences.
 
 # Education
 ```{r}
@@ -67,26 +64,17 @@ tribble(
   detailed_entries(Degree, Year, Institution, Where)
 ```
 
-# Teaching Experience
-* Guest lecturer at Universidad de La Sabana (Chia, Colombia). December 2023.
-* Microbiota Symposium from Theory to Clinical Practice, Colegio de Profesionales de la Nutrición de Querétaro y el Bajío. June 2021.
-* Bioinformatics and Reproducible Research Workshop, Postgraduate Program in Biological Sciences, UNAM. October 2019.
-* Guest lecturer at Center of Genomic Sciences, UNAM. August 2018.
 
-# Directed Theses
-* Bachelor's Thesis: Itzel Abigail Hernández Reyna, Bachelor's in Nutrition (Universidad Autónoma del Estado de Morelos), December 2019. "Impact of bacteriophages associated with childhood obesity on the intestinal metagenome."
+# Soft skills
+* Team player who can also work independently with excellent communication skills
+* Fast learner and could quickly adapt to new technologies.
+* Excellent problem-solving capabilities.
+* Can manage a significant workload or several projects from different areas without losing track of them.
 
-# Soft Skills
-* Effective team player with strong communication skills, capable of working independently.
-* Quick learner with the ability to adapt to new technologies rapidly.
-* Exceptional problem-solving abilities.
-* Capacity to manage significant workloads or multiple projects across different areas while maintaining organization and efficiency.
-
-# Programming Languages, Tools & Bioinformatic skills:
-* Programming Languages: Python, C#, R, SQL, Bash, HTML & CSS, JavaScript, Typescript
-* Web frameworks: Django, ASP.NET, Angular
-* Other tools: High-Performance Computing (HPC), Linux, Tableau, Docker, Nextflow, Snakemake, Jupyter Notebooks, Rstudio, MySQL, PostgreSQL, MongoDB
+# Skills:
 * Bioinformatic skills: 16S rRNA profiling, Genome/Transcriptome assembly, and annotation, Metagenomics, Metatranscriptomics, Viromics
+* Molecular Biology Techiques: DNA/RNA Extraction & Quantification, PCR techniques, Cloning, NGS libraries, RNA-seq
+* Programming Languages & Tools: Python, C#, R, SQL, Bash, HTML & CSS, "Python", Jupyter Notebooks, Nextflow
 
 # Languages
 * English – Full professional proficiency
@@ -104,5 +92,3 @@ tribble(
 9. Jatuyosporn, T., Laohawutthichai, P., Romo, J. P. O., Gallardo-Becerra, L., Lopez, F. S., Tassanakajon, A., Ochoa-Leyva, A., & Krusong, K. (2023). White spot syndrome virus impact on the expression of immune genes and gut microbiome of black tiger shrimp Penaeus monodon. Scientific Reports, 13(1), Article 1. https://doi.org/10.1038/s41598-023-27906-8
 10. Ochoa-Romo, J. P., Cornejo-Granados, F., Lopez-Zavala, A. A., Viana, M. T., Sánchez, F., Gallardo-Becerra, L., Luque-Villegas, M., Valdez-López, Y., Sotelo-Mundo, R. R., Cota-Huízar, A., López-Munguia, A., & Ochoa-Leyva, A. (2022). Agavin induces beneficial microbes in the shrimp microbiota under farming conditions. Scientific Reports, 12(1), Article 1. https://doi.org/10.1038/s41598-022-10442-2
 11. Palomino-Hermosillo, Y. A., Berumen-Varela, G., Ochoa-Jiménez, V. A., Balois-Morales, R., Jiménez-Zurita, J. O., Bautista-Rosales, P. U., Martínez-González, M. E., López-Guzmán, G. G., Cortés-Cruz, M. A., Guzmán, L. F., Cornejo-Granados, F., Gallardo-Becerra, L., Ochoa-Leyva, A., & Alia-Tejacal, I. (2022). Transcriptome Analysis of Soursop (Annona muricata L.) Fruit under Postharvest Storage Identifies Genes Families Involved in Ripening. Plants, 11(14), 1798. https://doi.org/10.3390/plants11141798
-12. Manzo, R., Gallardo-Becerra, L., Díaz de León-Guerrero, S., Villaseñor, T., Cornejo-Granados, F., Salazar-León, J., Ochoa-Leyva, A., Pedraza-Alva, G., & Pérez-Martínez, L. (2024). Environmental Enrichment Prevents Gut Dysbiosis Progression and Enhances Glucose Metabolism in High-Fat Diet-Induced Obese Mice. International Journal of Molecular Sciences, 25(13), Article 13. https://doi.org/10.3390/ijms25136904
-
