@@ -3,7 +3,7 @@ name: Luigui
 surname: Gallardo-Becerra
 position: "Software Engineer & Bioinformatician"
 phone: +1 619 602 0725
-www: luiguigallardo.github.io/web_page/
+www: www.lmgb.xyz
 email: "luiguimichelgallardo@gmail.com"
 
 github: LuiguiGallardo
