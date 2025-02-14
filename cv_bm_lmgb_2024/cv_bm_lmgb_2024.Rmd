@@ -1,7 +1,7 @@
 ---
 name: Luigui
 surname: Gallardo-Becerra
-position: "Bioinformatician & Molecular Biologist"
+position: "Software Engineer"
 phone: +1 619 602 0725
 www: www.lmgb.xyz
 email: "luiguimichelgallardo@gmail.com"
@@ -9,7 +9,7 @@ email: "luiguimichelgallardo@gmail.com"
 github: LuiguiGallardo
 linkedin: luiguigallardo
 date: "`r format(Sys.time(), '%B %Y')`"
-aboutme: "Bioinformatician and Molecular Biologist looking for new challenges to apply and expand my skills. In recent years, I participated in different projects using modern Genomic technologies (NGS), Data Analysis, and Data Science, to obtain novel biological information that culminated in high-impact peer-reviewed scientific publications"
+aboutme: "Experienced in software engineering with a focus on developing robust, scalable, and maintainable back-end applications. Proven track record in managing complex software projects and collaborating with cross-functional teams to deliver high-quality solutions."
 output: vitae::awesomecv
 ---
 
@@ -19,23 +19,40 @@ library(vitae)
 library(tibble)
 library(dplyr)
 ```
+# Experience
 
-# Research experience
 ```{r}
 tribble(
   ~ empty, ~ Degree, ~ Year, ~ Institution,
-  "", "Graduate Research Assistant (Computational Biology)", "January 2019 - Current", "Institute of Biotechnology, UNAM",  
+  "", "Graduate Research Assistant", "January 2019 - Current", "Institute of Biotechnology, UNAM",  
+) %>% 
+  detailed_entries(empty, Year, Degree, Institution)
+```
+* Developed scalable back-end solutions to optimize data processing and server performance.
+* Administered and maintained laboratory servers, ensuring optimal performance and security.
+* Created reproducible analyses and reports, contributing to efficient project management.
+* Presented technical findings at various seminars, effectively communicating complex information.
+
+```{r}
+tribble(
+  ~ empty, ~ Degree, ~ Year, ~ Institution,
+  "", "Data Engineer", "October 2016 - December 2018", "Appen",  
 ) %>% 
   detailed_entries(empty, Year, Degree, Institution)
 ```
 
-I was part of different research projects with a focus on molecular biology and bioinformatics, managing projects from sample preparation and data generation through final reports and publications. Key tasks included:
+* Conducted data collection and preprocessing for various clients, including browsers and social networks.
+* Developed and delivered weekly data deliverables, and collaborated on database creation tasks.
 
-* Molecular Biology Lab Techniques: DNA/RNA extractions, PCR, gel electrophoresis, cloning, NGS libraries preparation, etc.
-* Research Project Management: Participated in defining research objectives, designing experiments, and contributing to the generation of novel biological insights.
-* Computational Biology: Managed the laboratory's server (Linux systems), developed pipelines in Bash, Python, and Nextflow for reproducible analysis, and created visualizations using R, Jupyter Notebooks, and other tools.
-* Software Development: Built custom software tools in Bash, Python, Perl, and R to solve research challenges and streamline analysis.
-* Scientific Communication: Co-authored peer-reviewed publications, prepared reports, and presented findings at seminars and conferences.
+```{r}
+tribble(
+  ~ empty, ~ Degree, ~ Year, ~ Institution,
+  "", "Software Engineer (Internship)", "January 2016 - July 2016", "Dept. of Computer Science, CUCEI",  
+) %>% 
+  detailed_entries(empty, Year, Degree, Institution)
+```
+
+* Developed a cloud-deployed web application using ASP.NET Core for patient record management, contributing to both backend and frontend development.
 
 # Education
 ```{r}
@@ -65,30 +82,9 @@ tribble(
 ```
 
 
-# Soft skills
-* Team player who can also work independently with excellent communication skills
-* Fast learner and could quickly adapt to new technologies.
-* Excellent problem-solving capabilities.
-* Can manage a significant workload or several projects from different areas without losing track of them.
-
-# Skills:
-* Bioinformatic skills: 16S rRNA profiling, Genome/Transcriptome assembly, and annotation, Metagenomics, Metatranscriptomics, Viromics
-* Molecular Biology Techiques: DNA/RNA Extraction & Quantification, PCR techniques, Cloning, NGS libraries, RNA-seq
-* Programming Languages & Tools: Python, C#, R, SQL, Bash, HTML & CSS, "Python", Jupyter Notebooks, Nextflow
-
-# Languages
-* English – Full professional proficiency
-* Spanish – Native
-
-# Publications
-1. Gallardo-Becerra, L., Cervantes-Echeverría, M., Cornejo-Granados, F., Vazquez-Morado, L. E., & Ochoa-Leyva, A. (2023). Perspectives in Searching Antimicrobial Peptides (AMPs) Produced by the Microbiota. Microbial Ecology, 87(1), 8. https://doi.org/10.1007/s00248-023-02313-8
-2. Gallardo-Becerra, L., Cornejo-Granados, F., García-López, R., Valdez-Lara, A., Bikel, S., Canizales-Quinteros, S., López-Contreras, B. E., Mendoza-Vargas, A., Nielsen, H., & Ochoa-Leyva, A. (2020). Metatranscriptomic analysis to define the Secrebiome, and 16S rRNA profiling of the gut microbiome in obesity and metabolic syndrome of Mexican children. Microbial Cell Factories, 19(1), 61. https://doi.org/10.1186/s12934-020-01319-y
-3. Bikel, S., Gallardo-Becerra, L., Cornejo-Granados, F., & Ochoa-Leyva, A. (2022). Protocol for the isolation, sequencing, and analysis of the gut phageome from human fecal samples. STAR Protocols, 3(1), 101170. https://doi.org/10.1016/j.xpro.2022.101170
-4. Bikel, S., López-Leal, G., Cornejo-Granados, F., Gallardo-Becerra, L., García-López, R., Sánchez, F., Equihua-Medina, E., Ochoa-Romo, J. P., López-Contreras, B. E., Canizales-Quinteros, S., Hernández-Reyna, A., Mendoza-Vargas, A., & Ochoa-Leyva, A. (2021). Gut dsDNA virome shows diversity and richness alterations associated with childhood obesity and metabolic syndrome. iScience, 24(8), 102900. https://doi.org/10.1016/j.isci.2021.102900
-5. Cervantes-Echeverría, M., Gallardo-Becerra, L., Cornejo-Granados, F., & Ochoa-Leyva, A. (2023). The Two-Faced Role of crAssphage Subfamilies in Obesity and Metabolic Syndrome: Between Good and Evil. Genes, 14(1), Article 1. https://doi.org/10.3390/genes14010139
-6. Chino de la Cruz, C. M., Cornejo-Granados, F., Gallardo-Becerra, L., Rodríguez-Alegría, M. E., Ochoa-Leyva, A., & López Munguía, A. (2023). Complete genome sequence and characterization of a novel Enterococcus faecium with probiotic potential isolated from the gut of Litopenaeus vannamei. Microbial Genomics, 9(3), 000938. https://doi.org/10.1099/mgen.0.000938
-7. Cornejo-Granados, F., Gallardo-Becerra, L., Leonardo-Reza, M., Ochoa-Romo, J. P., & Ochoa-Leyva, A. (2018). A meta-analysis reveals the environmental and host factors shaping the structure and function of the shrimp microbiota. PeerJ, 6, e5382. https://doi.org/10.7717/peerj.5382
-8. Cornejo-Granados, F., Lopez-Zavala, A. A., Gallardo-Becerra, L., Mendoza-Vargas, A., Sánchez, F., Vichido, R., Brieba, L. G., Viana, M. T., Sotelo-Mundo, R. R., & Ochoa-Leyva, A. (2017). Microbiome of Pacific Whiteleg shrimp reveals differential bacterial community composition between Wild, Aquacultured and AHPND/EMS outbreak conditions. Scientific Reports, 7(1), 11783. https://doi.org/10.1038/s41598-017-11805-w
-9. Jatuyosporn, T., Laohawutthichai, P., Romo, J. P. O., Gallardo-Becerra, L., Lopez, F. S., Tassanakajon, A., Ochoa-Leyva, A., & Krusong, K. (2023). White spot syndrome virus impact on the expression of immune genes and gut microbiome of black tiger shrimp Penaeus monodon. Scientific Reports, 13(1), Article 1. https://doi.org/10.1038/s41598-023-27906-8
-10. Ochoa-Romo, J. P., Cornejo-Granados, F., Lopez-Zavala, A. A., Viana, M. T., Sánchez, F., Gallardo-Becerra, L., Luque-Villegas, M., Valdez-López, Y., Sotelo-Mundo, R. R., Cota-Huízar, A., López-Munguia, A., & Ochoa-Leyva, A. (2022). Agavin induces beneficial microbes in the shrimp microbiota under farming conditions. Scientific Reports, 12(1), Article 1. https://doi.org/10.1038/s41598-022-10442-2
-11. Palomino-Hermosillo, Y. A., Berumen-Varela, G., Ochoa-Jiménez, V. A., Balois-Morales, R., Jiménez-Zurita, J. O., Bautista-Rosales, P. U., Martínez-González, M. E., López-Guzmán, G. G., Cortés-Cruz, M. A., Guzmán, L. F., Cornejo-Granados, F., Gallardo-Becerra, L., Ochoa-Leyva, A., & Alia-Tejacal, I. (2022). Transcriptome Analysis of Soursop (Annona muricata L.) Fruit under Postharvest Storage Identifies Genes Families Involved in Ripening. Plants, 11(14), 1798. https://doi.org/10.3390/plants11141798
+# Key Skills
+* **Programming Languages**: Python, C#, R, SQL, Bash, HTML, CSS, JavaScript, TypeScript
+* **Tools & Frameworks**: PostgreSQL, Next.js, Apollo GraphQL, ASP.NET Core, Docker, Terraform, AWS, Linux, Git
+* **Software Development**: Back-end application development, database management, CI/CD, Agile methodologies, unit testing
+* **Soft Skills**: Team player, fast learner, excellent communication, problem-solving, multi-tasking
+* **Languages**: English (Full professional proficiency), and Spanish (native)
