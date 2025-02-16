@@ -1,0 +1,92 @@
+---
+name: Luigui
+surname: Gallardo-Becerra
+position: "Data Scientist & Bioinformatician"
+phone: +1 619 602 0725
+www: www.lmgb.xyz
+email: "luiguimichelgallardo@gmail.com"
+
+github: LuiguiGallardo
+linkedin: luiguigallardo
+date: "`r format(Sys.time(), '%B %Y')`"
+aboutme: "Data Scientist with a strong background in bioinformatics, data analysis, and machine learning. Experienced in processing large-scale datasets, developing predictive models, and implementing data pipelines. Proficient in Python, R, and SQL with expertise in statistical analysis, and visualization."
+output: vitae::awesomecv
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+library(tibble)
+library(dplyr)
+```
+# Experience
+
+```{r}
+tribble(
+  ~ empty, ~ Degree, ~ Year, ~ Institution,
+  "", "Graduate Research Assistant", "January 2019 - Current", "Institute of Biotechnology, UNAM",  
+) %>% 
+  detailed_entries(empty, Year, Degree, Institution)
+```
+* Developed machine learning models to analyze metagenomic and transcriptomic datasets.
+* Created reproducible bioinformatics pipelines using Nextflow and Snakemake.
+* Managed and optimized high-performance computing (HPC) workflows.
+* Conducted statistical analyses to identify biomarkers in complex biological datasets.
+
+```{r}
+tribble(
+  ~ empty, ~ Degree, ~ Year, ~ Institution,
+  "", "Data Engineer", "October 2016 - December 2018", "Appen",  
+) %>% 
+  detailed_entries(empty, Year, Degree, Institution)
+```
+
+- Preprocessed and analyzed large-scale datasets for various AI-driven projects.
+- Implemented SQL-based ETL pipelines for data integration.
+- Automated data collection and preprocessing workflows using Python and Bash.
+
+```{r}
+tribble(
+  ~ empty, ~ Degree, ~ Year, ~ Institution,
+  "", "Software Engineer (Internship)", "January 2016 - July 2016", "Dept. of Computer Science, CUCEI",  
+) %>% 
+  detailed_entries(empty, Year, Degree, Institution)
+```
+
+* Developed a cloud-deployed web application using ASP.NET Core for patient record management, contributing to both backend and frontend development.
+
+# Education
+```{r}
+tribble(
+  ~ Degree, ~ Year, ~ Institution, ~ Where,
+  "Ph.D. (Computational Biology)", "January 2019 - Current", "National Autonomous University of Mexico", "Mexico City, Mexico"
+) %>% 
+  detailed_entries(Degree, Year, Institution, Where)
+```
+
+
+```{r}
+tribble(
+  ~ Degree, ~ Year, ~ Institution, ~ Where,
+  "Master of Science (Computational Biology)", "August 2016 - January 2019", "National Autonomous University of Mexico", "Mexico City, Mexico"
+) %>% 
+  detailed_entries(Degree, Year, Institution, Where)
+```
+
+
+```{r}
+tribble(
+  ~ Degree, ~ Year, ~ Institution, ~ Where,
+  "Bachelor of Science (Molecular Biology)", "August 2012 - January 2016", "University of Guadalajara", "Guadalajara, Mexico"
+) %>% 
+  detailed_entries(Degree, Year, Institution, Where)
+```
+
+
+# Key Skills
+* **Programming Languages**: Python, C#, R, SQL, Bash, HTML, CSS, JavaScript, TypeScript
+* **Tools & Frameworks**: HPC, Linux, Docker, Tableau, Nextflow, Snakemake, Jupyter Notebooks, Rstudio, Django, ASP.NET, React, Angular, Shiny
+* **Software Development**: Web application development, database management, version control (Git), unit testing, Agile methodologies
+* **Bioinformatics**: 16S rRNA profiling, Genome/Transcriptome assembly, Metagenomics, Metatranscriptomics, Viromics
+* **Soft Skills**: Team player, fast learner, excellent communication, problem-solving, multi-tasking
+* **Languages**: English (Full professional proficiency), and Spanish (native)
