@@ -1,0 +1,90 @@
+---
+name: Luigui
+surname: Gallardo-Becerra
+position: "Software Engineer"
+phone: +1 619 602 0725
+www: www.lmgb.xyz
+email: "luiguimichelgallardo@gmail.com"
+
+github: LuiguiGallardo
+linkedin: luiguigallardo
+date: "`r format(Sys.time(), '%B %Y')`"
+aboutme: "Experienced in software engineering with a focus on developing robust, scalable, and maintainable back-end applications. Proven track record in managing complex software projects and collaborating with cross-functional teams to deliver high-quality solutions."
+output: vitae::awesomecv
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+library(tibble)
+library(dplyr)
+```
+# Experience
+
+```{r}
+tribble(
+  ~ empty, ~ Degree, ~ Year, ~ Institution,
+  "", "Graduate Research Assistant", "January 2019 - Current", "Institute of Biotechnology, UNAM",  
+) %>% 
+  detailed_entries(empty, Year, Degree, Institution)
+```
+* Developed scalable back-end solutions to optimize data processing and server performance.
+* Administered and maintained laboratory servers, ensuring optimal performance and security.
+* Created reproducible analyses and reports, contributing to efficient project management.
+* Presented technical findings at various seminars, effectively communicating complex information.
+
+```{r}
+tribble(
+  ~ empty, ~ Degree, ~ Year, ~ Institution,
+  "", "Data Engineer", "October 2016 - December 2018", "Appen",  
+) %>% 
+  detailed_entries(empty, Year, Degree, Institution)
+```
+
+* Conducted data collection and preprocessing for various clients, including browsers and social networks.
+* Developed and delivered weekly data deliverables, and collaborated on database creation tasks.
+
+```{r}
+tribble(
+  ~ empty, ~ Degree, ~ Year, ~ Institution,
+  "", "Software Engineer (Internship)", "January 2016 - July 2016", "Dept. of Computer Science, CUCEI",  
+) %>% 
+  detailed_entries(empty, Year, Degree, Institution)
+```
+
+* Developed a cloud-deployed web application using ASP.NET Core for patient record management, contributing to both backend and frontend development.
+
+# Education
+```{r}
+tribble(
+  ~ Degree, ~ Year, ~ Institution, ~ Where,
+  "Ph.D. (Computational Biology)", "January 2019 - Current", "National Autonomous University of Mexico", "Mexico City, Mexico"
+) %>% 
+  detailed_entries(Degree, Year, Institution, Where)
+```
+
+
+```{r}
+tribble(
+  ~ Degree, ~ Year, ~ Institution, ~ Where,
+  "Master of Science (Computational Biology)", "August 2016 - January 2019", "National Autonomous University of Mexico", "Mexico City, Mexico"
+) %>% 
+  detailed_entries(Degree, Year, Institution, Where)
+```
+
+
+```{r}
+tribble(
+  ~ Degree, ~ Year, ~ Institution, ~ Where,
+  "Bachelor of Science (Molecular Biology)", "August 2012 - January 2016", "University of Guadalajara", "Guadalajara, Mexico"
+) %>% 
+  detailed_entries(Degree, Year, Institution, Where)
+```
+
+
+# Key Skills
+* **Programming Languages**: Python, C#, R, SQL, Bash, HTML, CSS, JavaScript, TypeScript
+* **Tools & Frameworks**: PostgreSQL, Next.js, Apollo GraphQL, ASP.NET Core, Docker, Terraform, AWS, Linux, Git
+* **Software Development**: Back-end application development, database management, CI/CD, Agile methodologies, unit testing
+* **Soft Skills**: Team player, fast learner, excellent communication, problem-solving, multi-tasking
+* **Languages**: English (Full professional proficiency), and Spanish (native)

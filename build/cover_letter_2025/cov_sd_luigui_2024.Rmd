@@ -1,0 +1,31 @@
+---
+author: Luigui Gallardo
+return-address: 
+  - 3141 Cauby St. Apt. 92 92110 San Diego, CA
+return-phone: +(1) 619 602 0725
+return-email: luiguimichelgallardo@gmail.com
+
+place: San Diego, CA
+
+address:
+  - Minware
+  
+# subject: Application for Junior Back End Engineer position
+opening: Dear recruiter,
+closing: Thank you for your consideration,
+signature: "\\includegraphics{signature.png}"
+signature_size:
+colorlinks: true
+output: komaletter::komaletter
+---
+
+My name is Luigui, and I am writing to apply for the Junior Back End Engineer position at Minware. I believe my educational background and work experience make me a strong candidate for this role.
+
+I have a solid foundation in software engineering, with experience in designing, developing, and maintaining back-end applications. My previous roles, including as a Graduate Research Assistant and Data Engineer, have equipped me with the skills needed to build scalable and maintainable systems, manage technical debt, and contribute effectively to cross-functional teams.
+
+I am particularly excited about the opportunity to work directly with minware’s founders to build a product from the ground up. I thrive in environments where I can apply my problem-solving skills and focus on process efficiency and code quality. I am confident that my experience with technologies like PostgreSQL, Next.js, and GraphQL, along with my familiarity with AWS and Terraform, will allow me to contribute meaningfully to your team.
+
+I have attached my CV and invite you to visit my personal website at https://www.lmgb.xyz, where you can find more details about my projects and experience.
+
+I am eager to bring my expertise to Minwarew and look forward to the possibility of discussing how I can contribute to your team.
+

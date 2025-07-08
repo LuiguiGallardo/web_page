@@ -1,0 +1,25 @@
+---
+author: Luigui Gallardo
+return-address: 
+  - 3141 Cauby St. Apt. 92 92110 San Diego, CA
+return-phone: +(1) 619 602 0725
+return-email: luiguimichelgallardo@gmail.com
+place: San Diego, CA
+
+address:
+  - Protillion Biosciences
+  
+# subject: Application for Bioinformatician position
+opening: Dear Hiring Committee,
+closing: Sincerely,
+signature: "\\includegraphics{signature.png}"
+signature_size:
+colorlinks: true
+output: komaletter::komaletter
+---
+
+I am writing to express my enthusiastic interest in the Bioinformatic Data Scientist position. My background in bioinformatics, programming, and data analysis, combined with a deep passion for drug discovery, makes me an ideal candidate for this role. During my doctoral studies at the Institute of Biotechnology (UNAM), I played a crucial role in extracting meaningful insights from complex biological datasets. My work with Next-Generation Sequencing (NGS) technologies contributed to several high-impact publications, which are showcased on my portfolio: https://www.lmgb.xyz.
+
+The innovative application of genomics and bioinformatics to decipher disease mechanisms and develop novel therapeutics aligns seamlessly with my interests and expertise. I am a highly motivated, adaptable team player, passionate about working at the intersection of bioinformatics and drug development. I am eager to apply my skills and collaborate with Scripps’ multidisciplinary teams to drive the discovery of transformative medicines.
+
+Thank you for considering my application. I would welcome the opportunity to discuss how my experience and expertise can contribute to Protillion Biosciences’ mission of developing life-changing treatments.
