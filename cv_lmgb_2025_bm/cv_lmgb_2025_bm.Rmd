@@ -1,0 +1,103 @@
+---
+name: Luigui
+surname: Gallardo-Becerra
+position: "Bioinformatician | Computational Biologist"
+phone: +1 619 602 0725
+www: www.lmgb.xyz
+email: "luiguimichelgallardo@gmail.com"
+
+github: LuiguiGallardo
+linkedin: luiguigallardo
+date: "`r format(Sys.time(), '%B %Y')`"
+aboutme: "Experienced Bioinformatician and Computational Biologist with 6+ years of expertise in genomics, transcriptomics, and microbiome analysis. Skilled in developing scalable bioinformatics pipelines, managing large-scale NGS datasets, and implementing machine learning approaches for biological data analysis. Proven track record with 13 peer-reviewed publications and extensive experience in high-performance computing environments."
+output: vitae::awesomecv
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+library(tibble)
+library(dplyr)
+```
+# Research Experience
+
+```{r}
+tribble(
+  ~ empty, ~ Degree, ~ Year, ~ Institution,
+  "", "Graduate Research Assistant (Data Science & Bioinformatics)", "January 2019 - July 2025", "Institute of Biotechnology, UNAM",  
+) %>% 
+  detailed_entries(empty, Year, Degree, Institution)
+```
+* **Bioinformatics pipeline development:** Designed and implemented automated, reproducible bioinformatics workflows using Snakemake, Nextflow, and Bash for large-scale genomic data processing
+* **NGS data analysis:** Processed and analyzed diverse NGS datasets including whole genome sequencing, RNA-seq, 16S rRNA sequencing, metagenomics, and metatranscriptomics
+* **Microbiome and metagenomics:** Conducted comprehensive microbiome analysis, taxonomic profiling, functional annotation, and comparative metagenomics studies
+* **Machine learning applications:** Applied statistical modeling and machine learning techniques to identify biomarkers and patterns in complex biological datasets
+* **Database management:** Designed and maintained biological databases, implemented data curation workflows, and ensured data quality and integrity
+* **High-performance computing:** Administered HPC clusters, optimized computational workflows, and managed large-scale data processing tasks
+* **Scientific software development:** Developed custom bioinformatics tools and scripts using Python, R, and Perl to address specific research challenges
+
+```{r}
+tribble(
+  ~ empty, ~ Degree, ~ Year, ~ Institution,
+  "", "Data Engineer", "October 2016 - December 2018", "Appen",  
+) %>% 
+  detailed_entries(empty, Year, Degree, Institution)
+```
+
+* Designed and implemented ETL pipelines for large-scale data integration and automated reporting systems.
+* Developed data preprocessing algorithms and quality control workflows for AI/ML applications.
+* Created automated data collection systems, reducing manual processing time and improving data accuracy.
+
+```{r}
+tribble(
+  ~ empty, ~ Degree, ~ Year, ~ Institution,
+  "", "Software Engineer (Internship)", "January 2016 - July 2016", "Dept. of Computer Science, CUCEI",  
+) %>% 
+  detailed_entries(empty, Year, Degree, Institution)
+```
+
+* Developed a cloud-deployed web application using ASP.NET Core for patient record management, contributing to both backend and frontend development.
+
+# Education
+```{r}
+tribble(
+  ~ Degree, ~ Year, ~ Institution, ~ Where,
+  "Ph.D. in Computational Biology", "January 2019 - July 2025", "National Autonomous University of Mexico (UNAM)", "Mexico City, Mexico"
+) %>% 
+  detailed_entries(Degree, Year, Institution, Where)
+```
+
+
+```{r}
+tribble(
+  ~ Degree, ~ Year, ~ Institution, ~ Where,
+  "Master of Science in Computational Biology", "August 2016 - January 2019", "National Autonomous University of Mexico (UNAM)", "Mexico City, Mexico"
+) %>% 
+  detailed_entries(Degree, Year, Institution, Where)
+```
+
+
+```{r}
+tribble(
+  ~ Degree, ~ Year, ~ Institution, ~ Where,
+  "Bachelor of Science in Molecular Biology", "August 2012 - January 2016", "University of Guadalajara (UDG)", "Guadalajara, Mexico"
+) %>% 
+  detailed_entries(Degree, Year, Institution, Where)
+```
+
+# Key Skills
+* **Programming & Scripting**: Python, R, Perl, Bash, SQL, C++, Java, JavaScript, HTML/CSS
+* **Bioinformatics Tools**: Snakemake, Nextflow, Galaxy, QIIME2, Bioconductor, Biopython, Samtools, BLAST, BWA, Bowtie2
+* **NGS Analysis**: Illumina/PacBio sequencing, Quality control (FastQC, MultiQC), Read alignment, Variant calling, De novo assembly, Annotation
+* **Specialized Analysis**: Metagenomics, Metatranscriptomics, 16S rRNA analysis, Phylogenetics, Comparative genomics, Transcriptomics
+* **Data Management**: Database design (SQL, NoSQL), Data warehousing, Version control (Git), Reproducible research, Documentation
+* **Computing & Infrastructure**: Linux/Unix, HPC clusters, Cloud computing (AWS, Google Cloud), Docker, Singularity, Conda
+* **Data Analysis & Visualization**: Statistical analysis, Machine learning, Data visualization (ggplot2, matplotlib, Tableau), R Shiny
+* **Soft Skills**: Project management, Scientific communication, Team collaboration, Problem-solving, Technical writing
+* **Languages**: English (Full professional proficiency), Spanish (native)
+
+# Selected Publications (13 total)
+* **Gallardo-Becerra L**, Cornejo-Granados F, Romero-Hidalgo S, Lopez-Zavala AA, Cota-Huízar A, Cervantes-Echeverría M, et al. Host genome drives the microbiota enrichment of beneficial microbes in shrimp: exploring the hologenome perspective. Animal Microbiome. 2025 May 22;7(1):50.
+* **Gallardo-Becerra L**, Cervantes-Echeverría M, Cornejo-Granados F, Vazquez-Morado LE, Ochoa-Leyva A. Perspectives in Searching Antimicrobial Peptides (AMPs) Produced by the Microbiota. Microb Ecol. 2023 Dec 1;87(1):8.
+* **Gallardo-Becerra L**, Cornejo-Granados F, García-López R, Valdez-Lara A, Bikel S, Canizales-Quinteros S, et al. Metatranscriptomic analysis to define the Secrebiome, and 16S rRNA profiling of the gut microbiome in obesity and metabolic syndrome of Mexican children. Microb Cell Fact. 2020 Dec;19(1):61.
+* **Gallardo-Becerra L**, Cornejo-Granados F, Leonardo-Reza M, Ochoa-Romo JP, Ochoa-Leyva A. A meta-analysis reveals the environmental and host factors shaping the structure and function of the shrimp microbiota. PeerJ. 2018 Aug 10;6:e5382.
