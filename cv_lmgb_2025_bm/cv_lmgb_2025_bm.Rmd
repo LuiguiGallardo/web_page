@@ -1,7 +1,7 @@
 ---
 name: Luigui
 surname: Gallardo-Becerra
-position: "Bioinformatician | Computational Biologist"
+position: "Bioinformatician | Molecular Biologist"
 phone: +1 619 602 0725
 www: www.lmgb.xyz
 email: "luiguimichelgallardo@gmail.com"
@@ -9,7 +9,7 @@ email: "luiguimichelgallardo@gmail.com"
 github: LuiguiGallardo
 linkedin: luiguigallardo
 date: "`r format(Sys.time(), '%B %Y')`"
-aboutme: "Experienced Bioinformatician and Computational Biologist with 6+ years of expertise in genomics, transcriptomics, and microbiome analysis. Skilled in developing scalable bioinformatics pipelines, managing large-scale NGS datasets, and implementing machine learning approaches for biological data analysis. Proven track record with 13 peer-reviewed publications and extensive experience in high-performance computing environments."
+aboutme: "Experienced Bioinformatician and Molecular Biologist with 6+ years of expertise in genomics, transcriptomics, and microbiome analysis. Skilled in developing scalable bioinformatics pipelines, managing large-scale NGS datasets, and implementing machine learning approaches for biological data analysis. Proven track record with 13 peer-reviewed publications and extensive experience in high-performance computing environments."
 output: vitae::awesomecv
 ---
 
