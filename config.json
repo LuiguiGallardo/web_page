@@ -54,7 +54,7 @@
         },
         {
             "id": "awards",
-            "title": "Awards",
+            "title": "Awards & Certifications",
             "partial": "partials/awards.html"
         }
     ]
