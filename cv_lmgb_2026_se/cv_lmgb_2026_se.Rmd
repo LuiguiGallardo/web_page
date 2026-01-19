@@ -1,0 +1,92 @@
+---
+name: Luigui
+surname: Gallardo-Becerra
+position: "Software Engineer & Data Scientist"
+phone: +1 619 602 0725
+www: www.lmgb.xyz
+email: "luiguimichelgallardo@gmail.com"
+
+github: LuiguiGallardo
+linkedin: luiguigallardo
+date: "`r format(Sys.time(), '%B %Y')`"
+aboutme: "Software Engineer with 6+ years of experience in designing scalable data systems, automating complex workflows, and building cloud-native solutions. Proficient in Python, SQL, and DevOps practices, with a strong background in optimizing high-performance computing environments and backend development."
+output: vitae::awesomecv
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+library(tibble)
+library(dplyr)
+```
+# Experience
+
+```{r}
+tribble(
+  ~ empty, ~ Degree, ~ Year, ~ Institution,
+  "", "Graduate Research Assistant (Data Science & Bioinformatics)", "January 2019 - July 2025", "Institute of Biotechnology, UNAM",  
+) %>% 
+  detailed_entries(empty, Year, Degree, Institution)
+```
+* Engineered automated, containerized pipelines using Nextflow, Docker, and Snakemake for reproducible data processing.
+* Optimized distributed computing systems and high-performance computing (HPC) workflows for large-scale analysis.
+* Developed machine learning models to analyze complex datasets, resulting in 14 peer-reviewed publications.
+* Conducted statistical analyses and feature engineering to identify trends and patterns in biological data.
+
+```{r}
+tribble(
+  ~ empty, ~ Degree, ~ Year, ~ Institution,
+  "", "Data Engineer", "October 2016 - December 2018", "Appen",  
+) %>% 
+  detailed_entries(empty, Year, Degree, Institution)
+```
+
+- Built robust SQL-based ETL architectures for data integration and automated reporting systems.
+- Developed and automated data collection workflows using Python and Bash, reducing processing time by 50%.
+- Preprocessed and analyzed large-scale datasets for AI-driven projects, improving data quality by 30%.
+
+```{r}
+tribble(
+  ~ empty, ~ Degree, ~ Year, ~ Institution,
+  "", "Software Engineer (Internship)", "January 2016 - July 2016", "Dept. of Computer Science, CUCEI",  
+) %>% 
+  detailed_entries(empty, Year, Degree, Institution)
+```
+
+* Developed a cloud-deployed web application using ASP.NET Core for patient record management, contributing to both backend and frontend development.
+
+# Education
+```{r}
+tribble(
+  ~ Degree, ~ Year, ~ Institution, ~ Where,
+  "Ph.D. in Computational Biology", "January 2019 - July 2025", "National Autonomous University of Mexico (UNAM)", "Mexico City, Mexico"
+) %>% 
+  detailed_entries(Degree, Year, Institution, Where)
+```
+
+
+```{r}
+tribble(
+  ~ Degree, ~ Year, ~ Institution, ~ Where,
+  "Master of Science in Computational Biology", "August 2016 - January 2019", "National Autonomous University of Mexico (UNAM)", "Mexico City, Mexico"
+) %>% 
+  detailed_entries(Degree, Year, Institution, Where)
+```
+
+
+```{r}
+tribble(
+  ~ Degree, ~ Year, ~ Institution, ~ Where,
+  "Bachelor of Science in Molecular Biology", "August 2012 - January 2016", "University of Guadalajara (UDG)", "Guadalajara, Mexico"
+) %>% 
+  detailed_entries(Degree, Year, Institution, Where)
+```
+
+
+# Key Skills
+* **Programming & Frameworks**: Python, SQL, Bash, C#, JavaScript, Django, React, R
+* **Cloud & Infrastructure**: AWS, Docker, HPC, CI/CD, Linux, Database Management
+* **Data Engineering**: ETL Pipelines, Apache Spark, System Automation, Large-Scale Data Processing
+* **Tools**: Git, VS Code, Jupyter, Snakemake, Nextflow
+* **Soft Skills**: Problem-solving, Technical Leadership, Project Management, Agile Collaboration
+* **Languages**: English (Full professional proficiency), Spanish (native)

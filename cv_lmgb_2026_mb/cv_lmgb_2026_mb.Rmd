@@ -1,7 +1,7 @@
 ---
 name: Luigui
 surname: Gallardo-Becerra
-position: "Bioinformatician | Molecular Biologist"
+position: "Molecular Biologist | Bioinformatician"
 phone: +1 619 602 0725
 www: www.lmgb.xyz
 email: "luiguimichelgallardo@gmail.com"
@@ -9,7 +9,7 @@ email: "luiguimichelgallardo@gmail.com"
 github: LuiguiGallardo
 linkedin: luiguigallardo
 date: "`r format(Sys.time(), '%B %Y')`"
-aboutme: "Experienced Bioinformatician and Data Scientist with 6+ years of expertise in genomics, transcriptomics, and microbiome analysis. Skilled in developing scalable bioinformatics pipelines, managing large-scale NGS datasets, and implementing machine learning approaches for biological data analysis. Proven track record with 13 peer-reviewed publications and extensive experience in high-performance computing environments."
+aboutme: "Molecular Biologist and Bioinformatician with 6+ years of experience integrating wet-lab techniques with advanced computational analysis. Skilled in experimental design, NGS library preparation, PCR/qPCR, microbial culture, and molecular cloning, combined with strong expertise in genomics, transcriptomics, and microbiome analysis. Experienced in building reproducible bioinformatics workflows and analyzing large-scale biological datasets to generate actionable scientific insights. Author of 14 peer-reviewed publications and contributor to interdisciplinary projects across molecular biology, microbiology, and computational biology."
 output: vitae::awesomecv
 ---
 
@@ -19,28 +19,28 @@ library(vitae)
 library(tibble)
 library(dplyr)
 ```
-# Experience
+# Research Experience
 
 ```{r}
 tribble(
   ~ empty, ~ Degree, ~ Year, ~ Institution,
-  "", "Research Assistant (Bioinformatics & Data Science)", "January 2019 - July 2025", "Institute of Biotechnology, UNAM",  
+  "", "Research Assistant (Molecular Biology & Bioinformatics)", "January 2019 - July 2025", "Institute of Biotechnology, UNAM",  
 ) %>% 
   detailed_entries(empty, Year, Degree, Institution)
 ```
-**Bioinformatics workflow engineering:** Designed and implemented automated, reproducible pipelines using Snakemake, Nextflow, Python, and Bash for large-scale NGS data processing.
+**Bioinformatics workflow support:** Designed and maintained reproducible data-processing workflows using Snakemake, Nextflow, and Bash to support molecular biology and genomics projects.
 
-**NGS data analysis:** Processed and analyzed whole-genome sequencing, RNA-seq, 16S rRNA, metagenomic, and metatranscriptomic datasets, including QC, alignment, quantification, and downstream interpretation.
+**NGS data interpretation:** Analyzed next-generation sequencing datasets—including RNA-seq, whole genome sequencing, 16S rRNA profiling, metagenomics, and metatranscriptomics—to extract biologically meaningful insights that informed experimental design and downstream validation.
 
-**Microbiome and metagenomics:** Performed taxonomic profiling, functional annotation, and comparative microbiome analyses to identify microbial signatures and biological patterns.
+**Microbiome and functional analysis:** Performed taxonomic profiling, functional annotation, and comparative metagenomics to characterize microbial communities and identify gene functions relevant to host–microbe interactions.
 
-**Machine learning and statistical modeling:** Applied supervised and unsupervised learning methods to identify biomarkers, classify samples, and uncover structure in high-dimensional omics datasets.
+**Statistical and machine learning applications:** Applied statistical modeling and supervised/unsupervised learning approaches to identify biomarkers, classify phenotypes, and evaluate molecular signatures.
 
-**Database design and curation:** Built and maintained biological databases; developed ETL workflows for structured multi-omics data integration; ensured data consistency and quality control.
+**Data and database management:** Built and maintained curated biological datasets and internal databases, ensuring high data quality, traceability, and reproducibility across projects.
 
-**High-performance computing (HPC):** Administered HPC clusters, optimized pipeline performance, and managed large-scale computational workloads across Linux/SLURM environments.
+**High-performance computing operations:** Managed HPC environments used for large-scale sequence analysis, including job scheduling, software installation, workflow optimization, and troubleshooting.
 
-**Scientific software development:** Created custom tools and analysis scripts in Python, R, and Perl to address project-specific computational challenges and automate complex workflows.
+**Custom computational tools:** Developed targeted analysis scripts and utilities in Python, R, Bash, and Perl to streamline laboratory data processing, quality control, and reporting.
 
 ```{r}
 tribble(
@@ -97,29 +97,29 @@ tribble(
 
 # Key Skills
 
+**Molecular Biology Techniques:**  
+DNA/RNA extraction, PCR/qPCR, gel electrophoresis, NGS library prep, sample QC, bacterial culture, plasmid prep, sterile technique (BSL-2), experimental design, troubleshooting.
+
+**NGS & Genomics Analysis:**  
+QC (FastQC, MultiQC), read alignment (BWA, Bowtie2, HISAT2), variant calling, de novo assembly (Trinity, SPAdes), RNA-seq, 16S profiling, metagenomics, metatranscriptomics, viromics.
+
+**Bioinformatics & Workflow Development:**  
+Snakemake, Nextflow, QIIME2, Bioconductor, Biopython, samtools, BLAST, Kraken2, reproducible pipelines, ETL automation.
+
 **Programming & Scripting:**  
-Python, R, Bash, SQL, Perl, C++, Java, JavaScript, HTML/CSS
-
-**Bioinformatics Tools & Frameworks:**  
-Snakemake, Nextflow, Galaxy, QIIME2, Bioconductor, Biopython, Samtools, BLAST, BWA, Bowtie2
-
-**NGS Data Analysis:**  
-Illumina/PacBio workflows; quality control (FastQC, MultiQC); read alignment; variant calling; de novo assembly; genome/transcriptome annotation
-
-**Microbiome & Multi-Omics Analysis:**  
-Metagenomics, metatranscriptomics, 16S rRNA profiling, comparative genomics, phylogenetics, transcriptomics
-
-**Data Engineering & Management:**  
-SQL/NoSQL database design, ETL workflows, data warehousing, Git version control, reproducible research practices
+Python, R, Bash, SQL, C#, Java, JavaScript, HTML/CSS.
 
 **Computing & Infrastructure:**  
-Linux/Unix, HPC cluster administration, cloud computing (AWS, Google Cloud), containerization (Docker, Singularity), Conda environments
+Linux/Unix, HPC (SLURM), Docker, Conda, Git/GitHub, CI/CD, AWS, Google Cloud.
 
-**Data Science & Visualization:**  
-Statistical modeling, machine learning, visualization with ggplot2, seaborn, matplotlib, Tableau, and R Shiny
+**Data Analysis & Visualization:**  
+Statistics, machine learning, ggplot2, seaborn, matplotlib, GraphPad, Tableau, Jupyter, RStudio.
 
-**Professional Skills:**  
-Project management, scientific communication, cross-functional collaboration, technical writing, problem-solving
+**Data Management:**  
+SQL/NoSQL databases, data curation, QC workflows, reproducible documentation.
+
+**Soft Skills:**  
+Clear communication, teamwork, technical writing, project management, problem-solving, adaptability.
 
 **Languages:**  
 English (Full professional proficiency), Spanish (Native)

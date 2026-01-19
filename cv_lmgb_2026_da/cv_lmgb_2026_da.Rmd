@@ -1,7 +1,7 @@
 ---
 name: Luigui
 surname: Gallardo-Becerra
-position: "Data Scientist & Bioinformatician"
+position: "Data Analyst & Data Scientist"
 phone: +1 619 602 0725
 www: www.lmgb.xyz
 email: "luiguimichelgallardo@gmail.com"
@@ -9,7 +9,7 @@ email: "luiguimichelgallardo@gmail.com"
 github: LuiguiGallardo
 linkedin: luiguigallardo
 date: "`r format(Sys.time(), '%B %Y')`"
-aboutme: "Data Scientist with 6+ years of experience in bioinformatics, machine learning, and large-scale data analysis. Proven track record in developing predictive models, implementing automated pipelines, and extracting insights from complex biological datasets. Published author with 13 peer-reviewed publications in computational biology."
+aboutme: "Data Analyst with 6+ years of experience in statistical analysis, data visualization, and extracting actionable insights from complex datasets. Proficient in Python, R, and SQL, with a proven track record of automating reporting trends and driving data-driven decision-making."
 output: vitae::awesomecv
 ---
 
@@ -28,10 +28,10 @@ tribble(
 ) %>% 
   detailed_entries(empty, Year, Degree, Institution)
 ```
-* Developed machine learning models to analyze metagenomic and transcriptomic datasets, resulting in 13 peer-reviewed publications.
-* Created reproducible bioinformatics pipelines using Nextflow and Snakemake for automated data processing.
-* Managed and optimized high-performance computing (HPC) workflows for large-scale genomic analysis.
-* Conducted statistical analyses and feature engineering to identify biomarkers in complex biological datasets.
+* Analyzed patterns in large-scale metagenomic and transcriptomic datasets, resulting in 14 peer-reviewed publications.
+* Created automated data workflows using Nextflow and Snakemake for reproducible analysis.
+* Managed and optimized high-performance computing (HPC) workflows for large-scale data processing.
+* Conducted statistical analyses and feature engineering to identify trends and biomarkers in complex datasets.
 
 ```{r}
 tribble(
@@ -84,9 +84,9 @@ tribble(
 
 
 # Key Skills
-* **Programming & Data Science**: Python, R, SQL, Bash, Machine Learning, Statistical Analysis, Data Visualization
-* **Big Data & Cloud**: HPC, Docker, Apache Spark, AWS, ETL Pipelines, Database Management
-* **Bioinformatics**: NGS Analysis, Metagenomics, Transcriptomics, Nextflow, Snakemake, Phylogenetics
-* **Tools & Frameworks**: Jupyter, RStudio, Tableau, Git, Django, React, Shiny, TensorFlow, scikit-learn
-* **Soft Skills**: Problem-solving, Team collaboration, Project management, Scientific communication
+* **Data Analysis & Visualization**: SQL, Tableau, R, Python, Statistical Analysis, Data Cleaning, Data Visualization
+* **Big Data & Cloud**: ETL Pipelines, Database Management, AWS, Docker, Apache Spark, HPC
+* **Bioinformatics**: NGS Analysis, Metagenomics, Transcriptomics, Nextflow, Snakemake
+* **Tools & Frameworks**: Jupyter, RStudio, Git, Power BI, Excel, Pandas, Tidyverse
+* **Soft Skills**: Problem-solving, Stakeholder Communication, Project Management, Analytical Thinking
 * **Languages**: English (Full professional proficiency), Spanish (native)
