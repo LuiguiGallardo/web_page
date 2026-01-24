@@ -6,8 +6,8 @@ return-phone: +(1) 619 602 0725
 return-email: luiguimichelgallardo@gmail.com
 place: San Diego, CA
 
-# subject: Application for Website Developer position
-opening: Dear Onco360 Hiring Team,
+# subject: Application for Research Associate I position
+opening: Dear Hiring Team,
 closing: Best regards,
 signature: "\\includegraphics{signature.png}"
 signature_size:
@@ -15,10 +15,10 @@ colorlinks: true
 output: komaletter::komaletter
 ---
 
-I am writing to express my strong interest in the Website Developer position at Onco360 Pharmacy. With over six years of experience in software engineering and data science, I have developed a strong foundation in building responsive, user-friendly web applications and optimizing digital experiences.
+I am writing to express my strong interest in the Research Associate I position at the San Diego Zoo Wildlife Alliance. With a background in research and over six years of experience in data science and technical problem-solving, I have developed a strong foundation in analyzing records, managing data, and optimizing research workflows.
 
-My technical expertise includes developing cloud-deployed web applications using ASP.NET Core and React, as well as extensive experience with Python for backend automation. I am proficient in HTML, CSS, and JavaScript, and I have a proven track record of collaborating with cross-functional teams to transform requirements into functional, high-quality digital solutions.
+My conceptual understanding of scientific methods, combined with technical expertise in database systems, allows me to effectively collect, collate, and analyze data for the Conservation Genetics team. I am skilled in documentation and maintaining organized records, and I have a proven track record of collaborating with teams to ensure operational efficiency and rigorous attention to detail.
 
-I am particularly drawn to Onco360 because of your mission to help patients access life-saving medications. Coming from a background in research, I deeply understand the importance of making healthcare accessible and supportive. I would be honored to contribute my technical skills to a team that is dedicated to bettering the lives of those battling cancer.
+I am particularly drawn to this role because of my interest in stem cell applications and the innovative work of the Frozen Zoo. I am adaptable, eager to contribute to multiple aspects of the lab’s work, and dedicated to the mission of saving species through technology and science.
 
 You can find my portfolio and publications at www.lmgb.xyz. Thank you for your consideration.
