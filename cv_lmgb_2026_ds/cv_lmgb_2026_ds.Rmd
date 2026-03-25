@@ -87,6 +87,6 @@ tribble(
 * **Programming & Data Science**: Python, R, SQL, Bash, Machine Learning, Statistical Analysis, Data Visualization
 * **Big Data & Cloud**: HPC, Docker, Apache Spark, AWS, ETL Pipelines, Database Management
 * **Bioinformatics**: NGS Analysis, Metagenomics, Transcriptomics, Nextflow, Snakemake, Phylogenetics
-* **Tools & Frameworks**: Jupyter, RStudio, Tableau, Git, Django, React, Shiny, TensorFlow, scikit-learn
+* **Tools & Frameworks**: Jupyter, RStudio, Git, Django, React, Shiny, TensorFlow, scikit-learn
 * **Soft Skills**: Problem-solving, Team collaboration, Project management, Scientific communication
 * **Languages**: English (Full professional proficiency), Spanish (native)

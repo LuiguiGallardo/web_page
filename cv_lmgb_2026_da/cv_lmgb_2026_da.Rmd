@@ -84,7 +84,7 @@ tribble(
 
 
 # Key Skills
-* **Data Analysis & Visualization**: SQL, Tableau, R, Python, Statistical Analysis, Data Cleaning, Data Visualization
+* **Data Analysis & Visualization**: SQL, R, Python, Statistical Analysis, Data Cleaning, Data Visualization
 * **Big Data & Cloud**: ETL Pipelines, Database Management, AWS, Docker, Apache Spark, HPC
 * **Bioinformatics**: NGS Analysis, Metagenomics, Transcriptomics, Nextflow, Snakemake
 * **Tools & Frameworks**: Jupyter, RStudio, Git, Power BI, Excel, Pandas, Tidyverse

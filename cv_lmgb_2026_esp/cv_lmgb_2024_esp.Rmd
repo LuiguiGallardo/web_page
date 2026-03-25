@@ -36,7 +36,7 @@ Participé en diversos proyectos de investigación, desde la obtención o creaci
 * Gestión de servidores (HPC): administré el servidor del laboratorio, instalé sistemas operativos Linux y software/paquetes específicos, evité ralentizaciones del servidor y creé entornos de servidor seguros.
 * Creación de pipelines: diseñé pipelines para evitar flujos de trabajo repetitivos y realizar análisis reproducibles utilizando bash, Python y Snakemake.
 * Desarrollo de software: creé varias herramientas de software para resolver y alcanzar objetivos específicos utilizando bash, Python, Perl y R.
-* Creación de gráficos: utilizando R, Rstudio, Jupyter Notebooks, Excel, Graphpad y Tableau.
+* Creación de gráficos: utilizando R, Rstudio, Jupyter Notebooks y Excel.
 * Mantenimiento del control de versiones (CI/CD): creación y mantenimiento de repositorios en GitHub y su control de versiones continuo.
 * Elaboración de informes/publicaciones: utilizando Markdown y Word, entregué informes semanales y semestrales a los miembros del laboratorio. Además, participé como coautor en publicaciones revisadas por pares altamente citadas en sus respectivas áreas.
 * Presentaciones al público general y en eventos académicos: participé en la divulgación científica, seminarios especializados y congresos.

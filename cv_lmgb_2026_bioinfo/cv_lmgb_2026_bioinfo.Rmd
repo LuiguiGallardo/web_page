@@ -36,11 +36,13 @@ tribble(
 
 **Machine learning and statistical modeling:** Applied supervised and unsupervised learning methods to identify biomarkers, classify samples, and uncover structure in high-dimensional omics datasets.
 
-**Database design and curation:** Built and maintained biological databases; developed ETL workflows for structured multi-omics data integration; ensured data consistency and quality control.
+**Database design and curation:** Built and maintained biological databases using PostgreSQL; developed ETL workflows for structured multi-omics data integration; ensured data consistency and quality control.
 
 **High-performance computing (HPC):** Administered HPC clusters, optimized pipeline performance, and managed large-scale computational workloads across Linux/SLURM environments.
 
 **Scientific software development:** Created custom tools and analysis scripts in Python, R, and Perl to address project-specific computational challenges and automate complex workflows.
+
+**API development:** Built and consumed RESTful APIs to expose bioinformatics services and integrate external data sources into analysis workflows.
 
 ```{r}
 tribble(
@@ -50,7 +52,7 @@ tribble(
   detailed_entries(empty, Year, Degree, Institution)
 ```
 
-Supported large-scale data processing projects by developing automated ETL pipelines to ensure efficient integration, cleaning, and transformation of high-volume datasets.
+Supported large-scale data processing projects by developing automated ETL pipelines with PostgreSQL to ensure efficient integration, cleaning, and transformation of high-volume datasets.
 
 Implemented data quality control workflows used for machine-learning model development, improving reliability and reproducibility of downstream analyses.
 
@@ -98,13 +100,13 @@ tribble(
 # Key Skills
 
 **Programming & Scripting:**  
-Python, R, Bash, SQL, Perl, C++, Java, JavaScript, HTML/CSS
+Python, R, Bash, SQL, Perl, C#, PostgreSQL, JavaScript
 
 **Bioinformatics Tools & Frameworks:**  
 Snakemake, Nextflow, Galaxy, QIIME2, Bioconductor, Biopython, Samtools, BLAST, BWA, Bowtie2
 
 **NGS Data Analysis:**  
-Illumina/PacBio workflows; quality control (FastQC, MultiQC); read alignment; variant calling; de novo assembly; genome/transcriptome annotation
+Illumina/Nanopore workflows; quality control (FastQC, MultiQC); read alignment; variant calling; de novo assembly; genome/transcriptome annotation
 
 **Microbiome & Multi-Omics Analysis:**  
 Metagenomics, metatranscriptomics, 16S rRNA profiling, comparative genomics, phylogenetics, transcriptomics
@@ -116,7 +118,7 @@ SQL/NoSQL database design, ETL workflows, data warehousing, Git version control,
 Linux/Unix, HPC cluster administration, cloud computing (AWS, Google Cloud), containerization (Docker, Singularity), Conda environments
 
 **Data Science & Visualization:**  
-Statistical modeling, machine learning, visualization with ggplot2, seaborn, matplotlib, Tableau, and R Shiny
+Statistical modeling, machine learning, visualization with ggplot2, seaborn, matplotlib, and R Shiny
 
 **Professional Skills:**  
 Project management, scientific communication, cross-functional collaboration, technical writing, problem-solving

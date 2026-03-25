@@ -40,7 +40,7 @@ Across several interdisciplinary research projects, I contributed to data acquis
 
 **Custom tool development:** Implemented specialized algorithms and utilities in Python, R, Bash, and Perl to support complex multi-step analyses.
 
-**Quantitative data visualization:** Designed comprehensive visualizations and figure panels using ggplot2, seaborn, matplotlib, GraphPad, Tableau, and Jupyter Notebooks.
+**Quantitative data visualization:** Designed comprehensive visualizations and figure panels using ggplot2, seaborn, matplotlib, and Jupyter Notebooks.
 
 **Computational best practices:** Maintained version control through GitHub repositories and incorporated CI/CD testing to ensure workflow reliability.
 
@@ -107,7 +107,7 @@ React, Django, ASP.NET Core, Shiny
 Linux, High-Performance Computing (HPC/SLURM), Docker, Git/GitHub, CI/CD workflows, Conda
 
 **Data Science & Visualization:**  
-ggplot2, seaborn, matplotlib, GraphPad, Tableau, Jupyter Notebooks, RStudio
+ggplot2, seaborn, matplotlib, Jupyter Notebooks, RStudio
 
 **Databases:**  
 MySQL, PostgreSQL, MongoDB

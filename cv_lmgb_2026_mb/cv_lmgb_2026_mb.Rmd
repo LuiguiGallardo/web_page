@@ -113,7 +113,7 @@ Python, R, Bash, SQL, C#, Java, JavaScript, HTML/CSS.
 Linux/Unix, HPC (SLURM), Docker, Conda, Git/GitHub, CI/CD, AWS, Google Cloud.
 
 **Data Analysis & Visualization:**  
-Statistics, machine learning, ggplot2, seaborn, matplotlib, GraphPad, Tableau, Jupyter, RStudio.
+Statistics, machine learning, ggplot2, seaborn, matplotlib, Jupyter, RStudio.
 
 **Data Management:**  
 SQL/NoSQL databases, data curation, QC workflows, reproducible documentation.
