@@ -6,7 +6,7 @@ return-phone: +(1) 619 602 0725
 return-email: luiguimichelgallardo@gmail.com
 place: San Diego, CA
 
-# subject: Application for Bioinformatician I position
+# subject: Application for Bioinformatics Scientist position
 opening: Dear Hiring Team,
 closing: Best regards,
 signature: "\\includegraphics{signature.png}"
@@ -15,10 +15,10 @@ colorlinks: true
 output: komaletter::komaletter
 ---
 
-I am writing to express my strong interest in the Bioinformatician I position at the Institute for Genomic Health at Mount Sinai. With a background in research and over six years of experience in data science and technical problem-solving, I have developed a strong foundation in analyzing genomic data, managing databases, and optimizing analysis workflows.
+I am writing to express my strong interest in the Bioinformatics Scientist position at Element Biosciences. With a strong research background and over six years of experience in bioinformatics and computational biology, I have developed a solid foundation in interpreting single-cell and multiomic data, and developing bioinformatics pipelines.
 
-My conceptual understanding of scientific methods, combined with technical expertise in R and database systems, allows me to effectively manage and analyze large-scale datasets. I am skilled in identifying technical issues, and I have a proven track record of collaborating with researchers to identify disease-related information and ensure rigorous attention to detail.
+My conceptual understanding of scientific methods, combined with technical proficiency in Python, R, Bash, and tools like DESeq2, and STAR, allows me to effectively manage and analyze large-scale datasets. I have experience working with cloud computing environments such as AWS, and a proven track record of communicating scientific findings through peer-reviewed publications. I excel at collaborating with wet-lab scientists and researchers to design experiments and interpret complex results.
 
-I am particularly drawn to this role because of my interest in biomedical data science and the application of machine learning to healthcare. I am adaptable, eager to contribute to the analysis of electronic health records, and dedicated to the mission of bridging the gap between genomic research and patient care.
+I am particularly drawn to this role because of Element Biosciences' mission to empower the scientific community and advance its multiomics platform. I am adaptable, eager to generate publication-quality scientific insights, and dedicated to contributing to platform development and customer enablement.
 
 You can find my portfolio and publications at www.lmgb.xyz. Thank you for your consideration.
