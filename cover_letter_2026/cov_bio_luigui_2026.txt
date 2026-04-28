@@ -1,0 +1,27 @@
+Luigui Gallardo
+3141 Cauby St. Apt. 92, San Diego, CA 92110
++(1) 619 602 0725
+luiguimichelgallardo@gmail.com
+
+March 31, 2026
+
+Dr. Mahesh S. Desai
+Nutrition, Microbiome and Immunity Group
+Luxembourg Institute of Health (LIH)
+Luxembourg
+
+Dear Dr. Desai,
+
+I am writing to express my strong interest in the Post-Doctoral Fellow position in gut microbiome bioinformatics in your Nutrition, Microbiome and Immunity group at the Luxembourg Institute of Health. With a PhD in Computational Biology and over six years of experience in microbiome analysis, bioinformatics pipeline development, and large-scale omics data analysis, I am excited by the opportunity to contribute to your translational research program linking gut microbial communities, dietary interventions, and host immunity.
+
+My doctoral work has centered on microbiome and multi-omics analysis, encompassing metagenomic, metatranscriptomic, 16S rRNA profiling, and transcriptomic workflows across diverse biological systems. I have designed and implemented automated, reproducible analysis pipelines for large-scale NGS datasets in high-performance computing environments, and have applied statistical modeling and machine learning approaches to identify microbial signatures and biomarkers in complex datasets. I have co-authored 14 peer-reviewed publications in these areas, with a proven ability to maintain rigorous data management and communicate findings across collaborative, multi-disciplinary teams.
+
+I am particularly drawn to the translational, bench-to-bed scope of your group's research. Your work on synthetic gut microbial communities and the role of dietary fiber in shaping microbiome-immune interactions represents a compelling frontier, and I am eager to contribute both computationally and collaboratively across the diverse projects your group pursues — including patient cohorts, dietary intervention studies, and international collaborations.
+
+You can find my portfolio and publications at www.lmgb.xyz. Thank you for your consideration, and I look forward to discussing how my background can support the goals of the Nutrition, Microbiome and Immunity group.
+
+Best regards,
+
+
+
+Luigui Gallardo

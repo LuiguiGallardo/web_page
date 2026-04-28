@@ -1,0 +1,146 @@
+---
+name: Luigui
+surname: Gallardo-Becerra
+position: "Bioinformático | Biólogo Molecular"
+phone: +1 619 602 0725
+www: www.lmgb.xyz
+email: "luiguimichelgallardo@gmail.com"
+
+github: LuiguiGallardo
+linkedin: luiguigallardo
+date: "`r format(Sys.time(), '%B %Y')`"
+aboutme: "Bioinformático y Biólogo Molecular con experiencia en biología computacional, ciencia de datos e investigación molecular, en busca de nuevos desafíos para aplicar y expandir mis habilidades. En los últimos años, he contribuido a diversos proyectos de investigación utilizando tecnologías genómicas modernas (NGS), análisis avanzado de datos y metodologías de ciencia de datos, para generar conocimiento biológico innovador que ha resultado en publicaciones científicas de alto impacto."
+output: vitae::awesomecv
+---
+
+```{r setup, include=FALSE}
+
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+library(tibble)
+library(dplyr)
+```
+
+# Experiencia de Investigación
+```{r}
+tribble(
+  ~ empty, ~ Degree, ~ Year, ~ Institution,
+  "", "Asistente de Investigación de Posgrado (Bioinformática y Biología Molecular)", "Enero 2019 - Julio 2025", "Instituto de Biotecnología, UNAM",  
+) %>% 
+  detailed_entries(empty, Year, Degree, Institution)
+```
+
+Participé en diversos proyectos de investigación interdisciplinarios, desde la obtención y análisis de datos hasta la difusión de resultados científicos. Las tareas que llevé a cabo incluyen las siguientes:
+
+**Conceptualización de proyectos:** Asistí en la definición de objetivos de investigación, diseño experimental, flujos de trabajo analíticos y estrategias computacionales para abordar preguntas biológicas multi-ómicas.
+
+**Administración de sistemas HPC:** Mantuve la infraestructura computacional del laboratorio, incluyendo instalación de Linux, configuración de software, optimización de rendimiento y prácticas de seguridad de datos.
+
+**Ingeniería de flujos de trabajo reproducibles:** Construí pipelines robustos, escalables y reproducibles usando Nextflow, Snakemake, Python y Bash para automatizar análisis de NGS y metagenómicos.
+
+**Desarrollo de herramientas personalizadas:** Implementé algoritmos especializados y utilidades en Python, R, Bash y Perl para apoyar análisis complejos de múltiples pasos.
+
+**Visualización cuantitativa de datos:** Diseñé visualizaciones completas y paneles de figuras usando ggplot2, seaborn, matplotlib y Jupyter Notebooks.
+
+**Mejores prácticas computacionales:** Mantuve control de versiones a través de repositorios de GitHub e incorporé pruebas CI/CD para garantizar la fiabilidad de los flujos de trabajo.
+
+**Elaboración de informes científicos:** Preparé informes internos de investigación, contribuí a la redacción de manuscritos y proporcioné apoyo analítico para publicaciones de alto impacto.
+
+**Presentaciones y divulgación:** Realicé presentaciones orales y de póster en congresos nacionales e internacionales, y participé en iniciativas de comunicación científica.
+
+# Educación
+```{r}
+tribble(
+  ~ Degree, ~ Year, ~ Institution, ~ Where,
+  "Doctorado en Ciencias Computacionales (Biología Computacional)", "Enero 2019 - Marzo 2026", "Universidad Nacional Autónoma de México (UNAM)", "Ciudad de México, México"
+) %>% 
+  detailed_entries(Degree, Year, Institution, Where)
+```
+
+
+```{r}
+tribble(
+  ~ Degree, ~ Year, ~ Institution, ~ Where,
+  "Maestría en Ciencias Bioquímicas (Biología Computacional)", "Agosto 2016 - Enero 2019", "Universidad Nacional Autónoma de México (UNAM)", "Ciudad de México, México"
+) %>% 
+  detailed_entries(Degree, Year, Institution, Where)
+```
+
+
+```{r}
+tribble(
+  ~ Degree, ~ Year, ~ Institution, ~ Where,
+  "Licenciatura en Biología Molecular", "Agosto 2012 - Enero 2016", "Universidad de Guadalajara (UDG)", "Guadalajara, México"
+) %>% 
+  detailed_entries(Degree, Year, Institution, Where)
+```
+
+# Experiencia Docente
+* Profesor invitado en la Universidad de La Sabana (Chia, Colombia). Diciembre, 2023.
+* Organizador e instructor del evento académico de capacitación en bioinformática y metagenómica "Bioinfo del Norte", dirigido a investigadores del Centro de Investigación en Alimentación y Desarrollo, A.C. (CIAD), Hermosillo, Sonora. Septiembre, 2024.
+* Simposio Microbiota de la teoría a la práctica clínica, Colegio de Profesionales de la Nutrición de Querétaro y el Bajío. Junio, 2021.
+* Taller de Bioinformática e Investigación Reproducible del Posgrado en Ciencias Biológicas de la UNAM. Octubre, 2019.
+* Profesor invitado en el Centro de Ciencias Genómicas, UNAM. Agosto, 2018.
+
+# Tesis Dirigidas
+* Tesis de Licenciatura: Itzel Abigail Hernández Reyna, Licenciatura en Nutrición (Universidad Autónoma del Estado de Morelos), Diciembre 2019. "Impacto de los bacteriófagos asociados a la obesidad infantil en el metagenoma intestinal."
+
+# Habilidades Personales
+Adaptable y con capacidad de aprender rápidamente nuevas tecnologías, métodos analíticos y herramientas computacionales.
+
+Fuertes habilidades para la resolución de problemas, capaz de gestionar múltiples proyectos complejos manteniendo resultados de alta calidad.
+
+Comunicador efectivo con experiencia en colaboración con equipos interdisciplinarios y trabajo independiente.
+
+Con habilidades en operaciones técnicas como mantenimiento de servidores, flujos de trabajo Git/GitHub y desarrollo de scripts automatizados para tareas de investigación.
+
+# Lenguajes de Programación, Herramientas y Habilidades Bioinformáticas
+
+**Lenguajes de programación:**  
+Python, R, Bash, SQL, C#, JavaScript, TypeScript, HTML/CSS
+
+**Frameworks y librerías:**  
+React, Django, ASP.NET Core, Shiny
+
+**Computación y DevOps:**  
+Linux, Cómputo de Alto Rendimiento (HPC/SLURM), Docker, Git/GitHub, flujos CI/CD, Conda
+
+**Ciencia de datos y visualización:**  
+ggplot2, seaborn, matplotlib, Jupyter Notebooks, RStudio
+
+**Bases de datos:**  
+MySQL, PostgreSQL, MongoDB
+
+**Herramientas y métodos bioinformáticos:**  
+Snakemake, Nextflow, QIIME2, Trinity, SPAdes, Bowtie2, BWA, HISAT2, samtools, fastp, Kraken2
+
+**Análisis NGS y multi-ómicas:**  
+RNA-seq, WGS, perfilamiento de 16S rRNA, metagenómica, metatranscriptómica, virómica
+
+**Habilidades bioinformáticas especializadas:**  
+Ensamblado y anotación de genomas y transcriptomas; análisis de expresión diferencial; perfilamiento taxonómico; análisis funcional y de vías metabólicas; automatización ETL para datos multi-ómicos
+
+**Habilidades de biología molecular:**  
+Extracción de DNA/RNA, PCR/qPCR, electroforesis en gel, control de calidad de muestras, preparación de bibliotecas para NGS, cultivo y manejo de bacterias, preparación de plásmidos, técnica estéril (BSL-2) y colaboración con equipos de laboratorio húmedo
+
+# Idiomas
+* Español – Nativo
+* Inglés – Dominio profesional completo
+
+# Publicaciones
+1. Jatuyosporn T, Laohawutthichai P, Cornejo-Granados F, Gallardo-Becerra L, Tassanakajon A, Hurtado-Ramírez JM, Ochoa-Leyva A, Krusong K. *De novo* transcriptome assembly and annotation of *Penaeus monodon* hemocytes under WSSV infection and STAT knockdown. Sci Data. 2026.
+2. Gallardo-Becerra L, Cornejo-Granados F, Bikel S, Arenas I, López-Leal G, Alvarado-Gonzalez C, Sánchez-López F, Manzo R, Corzo G, Espino-Solis GP, Canizales-Quinteros S, Ochoa-Leyva A. Bioactive plasmid- and phage-encoded antimicrobial peptides (AMPs) in the human gut: a metatranscriptome–virome profiling reveals exploratory links to metabolic human diseases. Microb Ecol. 2025 Nov 28.
+3. **Cornejo-Granados F, Gallardo-Becerra L, Romero-Hidalgo S, Lopez-Zavala AA, Cota-Huízar A, Cervantes-Echeverría M, Sotelo-Mundo RR, Ochoa-Leyva A. Host genome drives the microbiota enrichment of beneficial microbes in shrimp: exploring the hologenome perspective. Animal Microbiome. 2025 May 22;7(1):50.**
+4. Manzo R, Gallardo-Becerra L, Díaz de León-Guerrero S, Villaseñor T, Cornejo-Granados F, Salazar-León J, Ochoa-Leyva A, Pedraza-Alva G, Pérez-Martínez L. Environmental Enrichment Prevents Gut Dysbiosis Progression and Enhances Glucose Metabolism in High-Fat Diet-Induced Obese Mice. International Journal of Molecular Sciences. 2024 Jan;25(13):6904.
+5. Jatuyosporn T, Laohawutthichai P, Ochoa Romo JP, Gallardo-Becerra L, Sánchez Lopez F, Tassanakajon A, Ochoa-Leyva A, Krusong K. White spot syndrome virus impact on the expression of immune genes and gut microbiome of black tiger shrimp Penaeus monodon. Sci Rep. 2023 Jan 18;13(1):996.
+6. Gallardo-Becerra L, Cervantes-Echeverría M, Cornejo-Granados F, Vazquez-Morado LE, Ochoa-Leyva A. Perspectives in Searching Antimicrobial Peptides (AMPs) Produced by the Microbiota. Microb Ecol. 2023 Dec 1;87(1):8.
+7. Chino de la Cruz CM, Cornejo-Granados F, Gallardo-Becerra L, Rodríguez-Alegría ME, Ochoa-Leyva A, López Munguía A. Complete genome sequence and characterization of a novel Enterococcus faecium with probiotic potential isolated from the gut of Litopenaeus vannamei. Microbial Genomics. 2023;9(3):000938.
+8. Cervantes-Echeverría M, Gallardo-Becerra L, Cornejo-Granados F, Ochoa-Leyva A. The Two-Faced Role of crAssphage Subfamilies in Obesity and Metabolic Syndrome: Between Good and Evil. Genes. 2023 Jan;14(1):139.
+9. Palomino-Hermosillo YA, Berumen-Varela G, Ochoa-Jiménez VA, Balois-Morales R, Jiménez-Zurita JO, Bautista-Rosales PU, Martínez-González ME, López-Guzmán GG, Cortés-Cruz MA, Guzmán LF, Cornejo-Granados F, Gallardo-Becerra L, Ochoa-Leyva A, Alia-Tejacal I. Transcriptome Analysis of Soursop (Annona muricata L.) Fruit under Postharvest Storage Identifies Genes Families Involved in Ripening. Plants (Basel). 2022 Jul 7;11(14):1798.
+10. **Ochoa-Romo JP, Cornejo-Granados F, Lopez-Zavala AA, Viana MT, Sánchez F, Gallardo-Becerra L, Luque-Villegas M, Valdez-López Y, Sotelo-Mundo RR, Cota-Huízar A, López-Munguia A, Ochoa-Leyva A. Agavin induces beneficial microbes in the shrimp microbiota under farming conditions. Sci Rep. 2022 Apr 16;12(1):6392.**
+11. Bikel S, Gallardo-Becerra L, Cornejo-Granados F, Ochoa-Leyva A. Protocol for the isolation, sequencing, and analysis of the gut phageome from human fecal samples. STAR Protocols. 2022 Mar 18;3(1):101170.
+12. Bikel S, López-Leal G, Cornejo-Granados F, Gallardo-Becerra L, García-López R, Sánchez F, Equihua-Medina E, Ochoa-Romo JP, López-Contreras BE, Canizales-Quinteros S, Hernández-Reyna A, Mendoza-Vargas A, Ochoa-Leyva A. Gut dsDNA virome shows diversity and richness alterations associated with childhood obesity and metabolic syndrome. iScience. 2021 Aug 20;24(8):102900.
+13. Gallardo-Becerra L, Cornejo-Granados F, García-López R, Valdez-Lara A, Bikel S, Canizales-Quinteros S, López-Contreras BE, Mendoza-Vargas A, Nielsen H, Ochoa-Leyva A. Metatranscriptomic analysis to define the Secrebiome, and 16S rRNA profiling of the gut microbiome in obesity and metabolic syndrome of Mexican children. Microb Cell Fact. 2020 Dec;19(1):61.
+14. Cornejo-Granados F, Gallardo-Becerra L, Leonardo-Reza M, Ochoa-Romo JP, Ochoa-Leyva A. A meta-analysis reveals the environmental and host factors shaping the structure and function of the shrimp microbiota. PeerJ. 2018 Aug 10;6:e5382.
+15. **Cornejo-Granados F, Lopez-Zavala AA, Gallardo-Becerra L, Mendoza-Vargas A, Sánchez F, Vichido R, Brieba LG, Viana MT, Sotelo-Mundo RR, Ochoa-Leyva A. Microbiome of Pacific Whiteleg shrimp reveals differential bacterial community composition between Wild, Aquacultured and AHPND/EMS outbreak conditions. Sci Rep. 2017 Dec;7(1):11783.**
+
