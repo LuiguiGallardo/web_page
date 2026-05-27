@@ -1,6 +1,6 @@
 ---
-name: Luigui
-surname: Gallardo-Becerra
+name: Luigui Michel
+surname: Gallardo Becerra
 position: "Bioinformático | Biólogo Molecular"
 phone: +1 619 602 0725
 www: www.lmgb.xyz

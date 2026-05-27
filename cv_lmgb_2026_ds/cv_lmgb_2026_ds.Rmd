@@ -24,14 +24,26 @@ library(dplyr)
 ```{r}
 tribble(
   ~ empty, ~ Degree, ~ Year, ~ Institution,
+  "", "STEM Python Expert (Chemistry and Biology)", "April 2025 - Present", "Mercor",  
+) %>% 
+  detailed_entries(empty, Year, Degree, Institution)
+```
+
+* Designed and solved complex coding challenges to benchmark and compare Large Language Model (LLM) outputs, verifying the soundness of their logical reasoning.
+* Evaluated and debugged AI-generated Python code across STEM domains to ensure correctness, optimal performance, and adherence to industry best practices.
+* Conducted reinforcement learning from human feedback by annotating, ranking, and correcting model responses to produce high-quality datasets for AI training.
+
+```{r}
+tribble(
+  ~ empty, ~ Degree, ~ Year, ~ Institution,
   "", "Graduate Research Assistant (Data Science & Bioinformatics)", "January 2019 - July 2025", "Institute of Biotechnology, UNAM",  
 ) %>% 
   detailed_entries(empty, Year, Degree, Institution)
 ```
-* Developed machine learning models to analyze metagenomic and transcriptomic datasets, resulting in 14 peer-reviewed publications.
-* Created reproducible bioinformatics pipelines using Nextflow and Snakemake for automated data processing.
-* Managed and optimized high-performance computing (HPC) workflows for large-scale genomic analysis.
+* Analyzed metagenomic and transcriptomic datasets to obtain novel biological insights.
 * Conducted statistical analyses and feature engineering to identify biomarkers in complex biological datasets.
+* Created reproducible bioinformatics pipelines using Nextflow and Snakemake for automated data processing.
+* Designed and managed high-performance computing (HPC) workflows for large-scale genomic analysis.
 
 ```{r}
 tribble(
@@ -41,11 +53,11 @@ tribble(
   detailed_entries(empty, Year, Degree, Institution)
 ```
 
-- Preprocessed and analyzed large-scale datasets for AI-driven projects, improving data quality by 30%.
+- Preprocessed and analyzed large-scale datasets for machine learning projects.
 - Implemented SQL-based ETL pipelines for data integration and automated reporting.
-- Automated data collection workflows using Python and Bash, reducing processing time by 50%.
+- Automated data collection workflows using Python and Bash.
 
-```{r}
+<!--```{r}
 tribble(
   ~ empty, ~ Degree, ~ Year, ~ Institution,
   "", "Software Engineer (Internship)", "January 2016 - July 2016", "Dept. of Computer Science, CUCEI",  
@@ -54,7 +66,7 @@ tribble(
 ```
 
 * Developed a cloud-deployed web application using ASP.NET Core for patient record management, contributing to both backend and frontend development.
-
+-->
 # Education
 ```{r}
 tribble(
@@ -86,7 +98,6 @@ tribble(
 # Key Skills
 * **Programming & Data Science**: Python, R, SQL, Bash, Machine Learning, Statistical Analysis, Data Visualization
 * **Big Data & Cloud**: HPC, Docker, Apache Spark, AWS, ETL Pipelines, Database Management
-* **Bioinformatics**: NGS Analysis, Metagenomics, Transcriptomics, Nextflow, Snakemake, Phylogenetics
 * **Tools & Frameworks**: Jupyter, RStudio, Git, Django, React, Shiny, TensorFlow, scikit-learn
 * **Soft Skills**: Problem-solving, Team collaboration, Project management, Scientific communication
 * **Languages**: English (Full professional proficiency), Spanish (native)
