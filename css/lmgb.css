@@ -1,0 +1,363 @@
+/* ------------------------------------------------------------------
+   lmgb.css — visual identity for lmgb.xyz
+   Loaded after css/styles.css (Start Bootstrap Resume) and overrides it.
+   Palette: DarkCyan (#008B8B), a darker cyan for text, and a single amber accent.
+   Motif: a phage plaque assay (bacterial lawn with clear plaques) in the sidebar.
+------------------------------------------------------------------- */
+
+:root {
+    --cyan: #008b8b;          /* DarkCyan: sidebar, section headings, dots */
+    --cyan-deep: #006262;     /* darker DarkCyan for small text and links (AA contrast on white) */
+    --cyan-ink: #0b3f3f;      /* name and headings on light */
+    --amber: #f2b84b;         /* single accent: active menu ring, focus inside the sidebar */
+    --paper: #fafcfc;         /* page background, slightly cool */
+    --lawn: #d9eaea;          /* rules, image frames */
+    --ink: #172626;           /* body text */
+    --muted: #4c6262;         /* dates, secondary text */
+
+    --font-head: "Familjen Grotesk", "Helvetica Neue", Arial, sans-serif;
+    --font-body: "Newsreader", Georgia, "Times New Roman", serif;
+
+    --bs-primary: var(--cyan);
+    --bs-primary-rgb: 0, 139, 139;
+}
+
+/* ---------- Base ---------- */
+body {
+    font-family: var(--font-body);
+    font-size: 1.125rem;
+    line-height: 1.6;
+    color: var(--ink);
+    background: var(--paper);
+    -webkit-font-smoothing: antialiased;
+}
+
+p, li { color: var(--ink); }
+
+a { color: var(--cyan-deep); text-underline-offset: 0.18em; text-decoration-thickness: 1px; }
+a:hover { color: var(--cyan-ink); text-decoration-color: var(--cyan); }
+
+a:focus-visible, button:focus-visible {
+    outline: 2px solid var(--cyan-deep);
+    outline-offset: 3px;
+    border-radius: 2px;
+}
+
+h1, h2, h3, h4, h5, h6,
+.subheading, .navbar, .text-primary {
+    font-family: var(--font-head);
+    text-transform: none;
+    letter-spacing: normal;
+}
+
+.text-primary { color: var(--muted) !important; }
+.bg-primary { background-color: var(--cyan) !important; }
+
+/* ---------- Sidebar: the plaque assay ---------- */
+#sideNav {
+    background-color: var(--cyan) !important;
+}
+#sideNav a:focus-visible { outline-color: var(--amber); }
+
+@media (min-width: 992px) {
+    #sideNav {
+        width: 17rem;
+        align-items: flex-start;
+        padding: 2.5rem 2rem;
+        background-image: url("../assets/img/plaque-lawn.svg");
+        background-repeat: no-repeat;
+        background-position: center bottom;
+        background-size: 100% auto;
+    }
+    body { padding-top: 0; padding-left: 17rem; }
+
+    #sideNav .navbar-brand { align-self: flex-start; margin: 0 0 1.75rem 0 !important; padding: 0; }
+    #sideNav .navbar-brand .img-profile { margin-right: 0 !important; }
+    #sideNav .navbar-brand .img-profile {
+        max-width: 8.5rem;
+        max-height: 8.5rem;
+        border: 3px solid rgba(255, 255, 255, 0.4);
+        margin-left: 0 !important;
+        display: block;
+    }
+
+    #sideNav .navbar-collapse { align-items: flex-start; width: 100%; }
+    #sideNav .navbar-nav { text-align: left; width: 100%; }
+}
+
+#sideNav .navbar-nav .nav-item .nav-link {
+    font-family: var(--font-head);
+    font-weight: 600;
+    font-size: 1.1rem;
+    text-transform: none;
+    letter-spacing: 0.005em;
+    color: #fff;
+    padding: 0.32rem 0 0.32rem 1.25rem;
+    position: relative;
+}
+
+/* Active item is marked by a small "plaque": a hollow ring */
+#sideNav .navbar-nav .nav-item .nav-link::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 0.55rem;
+    height: 0.55rem;
+    margin-top: -0.275rem;
+    border-radius: 50%;
+    border: 1.5px solid transparent;
+}
+#sideNav .navbar-nav .nav-item .nav-link:hover { color: #fff; text-decoration: underline; text-underline-offset: 0.25em; text-decoration-color: var(--amber); }
+#sideNav .navbar-nav .nav-item .nav-link.active { color: #fff; }
+#sideNav .navbar-nav .nav-item .nav-link.active::before { border-color: var(--amber); background: rgba(242, 184, 75, 0.3); }
+
+@media (max-width: 991.98px) {
+    #sideNav .navbar-brand span { font-family: var(--font-head); font-weight: 600; letter-spacing: 0; }
+    #sideNav .navbar-nav .nav-item .nav-link { padding-left: 1.25rem; }
+}
+
+/* ---------- Sections ---------- */
+section.resume-section {
+    min-height: auto;
+    display: block;
+    padding: 5.5rem 3.5rem 4.5rem;
+    max-width: 58rem;
+}
+section.resume-section .resume-section-content { width: 100%; }
+
+#about { padding-top: 7rem; padding-bottom: 5rem; }
+
+hr.m-0 { border: 0; border-top: 1px solid var(--lawn); opacity: 1; margin-left: 3.5rem !important; max-width: 51rem; }
+
+/* Name: one line, set in the grotesk, no colored half */
+section.resume-section h1 {
+    font-family: var(--font-head);
+    font-weight: 600;
+    font-size: clamp(2.5rem, 4.6vw, 4rem);
+    line-height: 1.02;
+    letter-spacing: -0.025em;
+    color: var(--cyan-ink);
+    margin-bottom: 0.5rem !important;
+}
+section.resume-section h1 span.text-primary { color: inherit !important; font: inherit; letter-spacing: inherit; white-space: normal; }
+
+#about .subheading { font-size: 1.05rem; font-weight: 400; margin-bottom: 2.25rem !important; }
+#about .subheading a { color: var(--muted); }
+#about .subheading a:hover { color: var(--cyan-deep); }
+
+#about .lead {
+    font-family: var(--font-body);
+    font-size: 1.4rem;
+    line-height: 1.5;
+    font-weight: 400;
+    max-width: 34em;
+    color: var(--ink);
+    margin-bottom: 1.75rem !important;
+}
+#about p { max-width: 40em; }
+#about p.lead + p, #about p.lead ~ p { margin-bottom: 1.25rem !important; font-size: 1.1rem; }
+
+section.resume-section h2 {
+    font-family: var(--font-head);
+    font-weight: 600;
+    font-size: 2.1rem;
+    letter-spacing: -0.015em;
+    color: var(--cyan);
+    margin-bottom: 2.25rem !important;
+}
+
+section.resume-section h3 {
+    font-family: var(--font-head);
+    font-weight: 600;
+    font-size: 1.3rem;
+    color: var(--ink);
+    letter-spacing: -0.005em;
+}
+
+section.resume-section .subheading {
+    font-family: var(--font-head);
+    font-weight: 500;
+    font-size: 1.05rem;
+    color: var(--muted);
+}
+section.resume-section .subheading a { color: inherit; }
+
+/* Dates sit to the right, quiet, with even figures */
+section.resume-section .flex-shrink-0 .text-primary,
+section.resume-section span.text-primary {
+    font-family: var(--font-head);
+    font-size: 0.95rem;
+    font-weight: 500;
+    font-variant-numeric: tabular-nums;
+    color: var(--muted) !important;
+    white-space: nowrap;
+}
+
+/* Experience entries: tighter rhythm, readable measure */
+#experience .d-flex { margin-bottom: 2.75rem !important; }
+#experience p, #experience li, #apps li, #teaching li, #skills li, #education p { max-width: 42em; }
+#experience ul { padding-left: 1.1rem; }
+#experience li { margin-bottom: 0.35rem; }
+#experience li::marker { color: var(--cyan); }
+
+/* Check-mark lists → small DarkCyan dots */
+.fa-ul { margin-left: 1.4rem; }
+.fa-ul > li { margin-bottom: 0.3rem; }
+.fa-li { color: var(--cyan); font-size: 0.55em; top: 0.55em; }
+.fa-li svg, .fa-li i { opacity: 0; }
+.fa-li::after {
+    content: "";
+    position: absolute;
+    left: 0.6em;
+    top: 0.35em;
+    width: 0.62rem;
+    height: 0.62rem;
+    border-radius: 50%;
+    background: var(--cyan);
+    opacity: 0.9;
+}
+
+.dev-icons { font-size: 2.4rem; }
+.dev-icons .list-inline-item i, .dev-icons .list-inline-item svg { color: var(--cyan); }
+.dev-icons .list-inline-item:hover i, .dev-icons .list-inline-item:hover svg { color: var(--cyan-deep); }
+
+.social-icons .social-icon {
+    background-color: var(--cyan);
+    height: 3rem;
+    width: 3rem;
+    font-size: 1.25rem;
+}
+.social-icons .social-icon:hover { background-color: var(--cyan-deep); }
+
+/* ---------- Publications: a chronological list, years in the margin ---------- */
+#research_portfolio .research-portfolio-gallery {
+    height: auto;
+    overflow: visible;
+    border: 0;
+    padding: 0;
+    background: none;
+    box-shadow: none;
+}
+#research_portfolio .research-content { display: block; padding: 0; }
+
+#research_portfolio .research-item-gallery {
+    display: grid;
+    grid-template-columns: 4.25rem 1fr;
+    column-gap: 1.25rem;
+    border-top: 1px solid var(--lawn);
+    padding: 1.6rem 0;
+}
+#research_portfolio .research-item-gallery:last-child { border-bottom: 1px solid var(--lawn); }
+
+#research_portfolio .pub-year {
+    font-family: var(--font-head);
+    font-weight: 600;
+    font-size: 1.05rem;
+    font-variant-numeric: tabular-nums;
+    color: var(--cyan-deep);
+    padding-top: 0.15rem;
+}
+#research_portfolio .pub-year.repeat { color: transparent; }   /* kept for screen readers, hidden visually */
+#research_portfolio .pub-year.project { font-size: 0.9rem; font-weight: 500; color: var(--muted); }
+
+#research_portfolio .research-item {
+    display: grid;
+    grid-template-columns: 1fr 11.5rem;
+    grid-template-areas: "title figure" "notes figure";
+    column-gap: 1.75rem;
+    align-items: start;
+    background: none;
+    border: 0;
+    padding: 0;
+}
+#research_portfolio .research-item h4 {
+    grid-area: title;
+    font-family: var(--font-body);
+    font-weight: 500;
+    font-size: 1.22rem;
+    line-height: 1.35;
+    margin: 0 0 0.5rem;
+    max-width: 34em;
+}
+#research_portfolio .research-item h4 a { color: var(--ink); text-decoration: none; }
+#research_portfolio .research-item h4 a:hover { color: var(--cyan-deep); text-decoration: underline; text-decoration-color: var(--cyan); }
+
+#research_portfolio .research-item ul { grid-area: notes; list-style: none; padding: 0; margin: 0; }
+#research_portfolio .research-item li { font-size: 1rem; line-height: 1.5; color: var(--muted); margin: 0; max-width: 38em; }
+
+#research_portfolio .research-image-container {
+    grid-area: figure;
+    width: 11.5rem;
+    height: 8rem;
+    background: #fff;
+    border: 1px solid var(--lawn);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.25rem;
+    padding: 0.35rem;
+    overflow: hidden;
+}
+#research_portfolio .research-image-container img {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+}
+#research_portfolio .research-image-container.multi-image img { max-height: 100%; max-width: 48%; }
+
+#research_portfolio .research-item:hover { transform: none; box-shadow: none; }
+#research_portfolio .research-image-container:hover img { transform: none; }
+#research_portfolio .research-item h4, #research_portfolio .research-item h4 a { text-transform: none; }
+
+/* The theme forces a horizontal card carousel with !important; undo only those properties */
+#research_portfolio .research-portfolio-gallery { height: auto !important; overflow: visible !important; }
+#research_portfolio .research-content { display: block !important; width: auto !important; height: auto !important; }
+#research_portfolio .research-item-gallery { min-width: 0 !important; max-width: none !important; }
+#research_portfolio .research-item { height: auto !important; box-shadow: none; border-radius: 0; transition: none; }
+#research_portfolio .research-image-container { height: 8rem !important; }
+@media (max-width: 640px) {
+    #research_portfolio .research-image-container { height: 10rem !important; }
+}
+
+/* ---------- Applications and pipelines ---------- */
+#apps .flex-grow-1 > a {
+    font-family: var(--font-head);
+    font-weight: 600;
+    font-size: 1.3rem;
+    color: var(--cyan-ink);
+    text-decoration: none;
+}
+#apps .flex-grow-1 > a:hover { color: var(--cyan-deep); text-decoration: underline; text-decoration-color: var(--cyan); }
+#apps .flex-grow-1 > br { display: none; }
+#apps .flex-grow-1 > ul { margin-top: 0.6rem; padding-left: 1.1rem; }
+#apps li::marker { color: var(--cyan); }
+#apps .d-flex { margin-bottom: 2.25rem !important; }
+
+/* ---------- Awards, interests, education ---------- */
+#awards .fa-ul li, #interests p { max-width: 42em; }
+#education .d-flex { margin-bottom: 2.25rem !important; }
+
+/* ---------- Small screens ---------- */
+@media (max-width: 991.98px) {
+    section.resume-section { padding: 3.5rem 1.25rem 3rem; }
+    #about { padding-top: 4rem; }
+    hr.m-0 { margin-left: 1.25rem !important; margin-right: 1.25rem !important; }
+    #about .lead { font-size: 1.22rem; }
+}
+
+@media (max-width: 640px) {
+    body { font-size: 1.05rem; }
+    #research_portfolio .research-item-gallery { grid-template-columns: 1fr; row-gap: 0.35rem; }
+    #research_portfolio .pub-year.repeat { display: none; }
+    #research_portfolio .research-item { grid-template-columns: 1fr; grid-template-areas: "title" "notes" "figure"; }
+    #research_portfolio .research-image-container { width: 100%; height: 10rem; margin-top: 0.85rem; }
+    section.resume-section .d-flex.flex-md-row .flex-shrink-0 { margin-top: 0.25rem; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+}
