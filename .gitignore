@@ -2,3 +2,13 @@
 */*.DS_Store
 */.Rhistory
 .Rproj.user
+
+# Private application materials (never publish)
+cover_letters/
+
+# Only publish the academic resume PDF; keep other versions private
+resumes/*
+!resumes/resume_2026_academic.pdf
+
+# Word temporary/lock files
+~$*
